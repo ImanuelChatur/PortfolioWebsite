@@ -1,23 +1,28 @@
 .navbar {
-  background-color: blanchedalmond;
   padding: 16px;
+  align-items: center;
+  display: flex;
 }
 
 .navbar ul{
   list-style-type: none;
-  margin: 0;
   padding: 0;
   display: flex;
   gap: 10px;
+  margin-left: auto;
 }
 
 .navbar a {
   color: white;
   text-decoration: none;
   font-weight: 600;
+  font-size: 1.1rem;         /* Increase text size */
+  padding: 10px 16px;        /* Bigger clickable area */
+  border-radius: 6px;        /* Optional: rounded edges */
+  transition: background-color 0.2s ease;
 }
 
 .navbar a.active,
 .navbar a:hover {
-  color: black;
+  color: blanchedalmond;
 }
