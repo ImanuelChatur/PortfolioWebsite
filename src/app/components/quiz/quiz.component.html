@@ -1,1 +1,5 @@
-<p>quiz works!</p>
+<h1>{{ title }}</h1>
+<h4>{{desc}}</h4>
+<li *ngFor="let q of questions">
+    {{ q.question }}
+</li>
