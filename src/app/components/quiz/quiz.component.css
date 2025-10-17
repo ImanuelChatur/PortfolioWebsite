@@ -1,0 +1,13 @@
+.question-card {
+  background-color: #fff; /* white card */
+  color: #2c3e50;         /* dark text */
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.question-title {
+  color: #2c3e50;  /* ensures header text is readable */
+  font-size: 1.2rem;
+  font-weight: 600;
+}
