@@ -4,6 +4,12 @@
   border-radius: 16px;
   padding: 1.5rem;
   box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  align-content: center;
+  text-align: center;
+}
+.q-header{
+  align-content: center;
+  text-align: center;
 }
 
 .question-title {

@@ -20,6 +20,7 @@ export class QuizComponent implements OnInit {
   questions: Question[] = [];
   title: string | undefined;
   desc: string | undefined;
+  score: number = 0;
 
   constructor(private questionService: QuestionService) {  }
 
@@ -39,4 +40,11 @@ export class QuizComponent implements OnInit {
   nextQuestion(){
     this.qIndex++;
   }
+
+  answerQuestion(index: number){
+    if(this.questions[this.qIndex].answer_index == index){
+      this.score++;
+    }
+  }
+
 }

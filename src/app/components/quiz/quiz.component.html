@@ -2,20 +2,15 @@
 <p>{{desc}}</p>
 <br><br>
 
-<h2>{{questions[qIndex]?.question}}</h2>
-
-<br>
-
-
 <mat-card class="question-card">
   <mat-card-header>
-    <mat-card-title class="mat-">{{ questions[qIndex]?.question }}</mat-card-title>
+    <mat-card-title class="q-header">{{ questions[qIndex]?.question }}</mat-card-title>
   </mat-card-header>
   <mat-card-content>
-    <ul *ngFor="let q of questions[qIndex]?.options">
-      <button mat-raised-button>{{q}}</button>
+    <ul *ngFor="let q of questions[qIndex]?.options; let i = index">
+      <button mat-raised-button (click)="answerQuestion(i)">{{q}}</button>
     </ul>
-
-    <button mat-raised-button color="primary">Next</button>
+    <button mat-raised-button color="primary" (click)="nextQuestion()">Next</button>
   </mat-card-content>
 </mat-card>
+<p>Score: {{score}} / {{questions.length}}</p>
