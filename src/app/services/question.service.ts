@@ -8,8 +8,13 @@ import {Observable} from 'rxjs';
 export class QuestionService{
   constructor(private http: HttpClient) {  }
 
-  getQuestionJson():Observable<Quiz>{
-    return this.http.get<Quiz>("assets/quizzes/questions.json");
+  getQuestionJson(quiz: string):Observable<Quiz>{
+    console.log(`RETRIEVING QUESTIONS FROM ${quiz}`);
+    return this.http.get<Quiz>(`assets/quizzes/${quiz}.json`);
+  }
+
+  getQuizList():Observable<any>{
+    return this.http.get<Quiz[]>("assets/quizzes/quizList.json");
   }
 
 }

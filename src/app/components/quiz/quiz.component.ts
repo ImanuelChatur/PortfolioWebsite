@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {Question, QuestionService} from './question.service';
+import {Question, QuestionService} from '../../services/question.service';
 import {CommonModule} from '@angular/common';
 import {MatCardModule} from '@angular/material/card';
 import {MatButton, MatFabButton} from '@angular/material/button';
@@ -25,17 +25,20 @@ export class QuizComponent implements OnInit {
   score: number = 0;
   displaySummary: boolean = false;
 
+  loadedQuiz: string = '';
 
   constructor(private questionService: QuestionService) {  }
 
   ngOnInit(): void {
-    this.questionService.getQuestionJson().subscribe({})
     this.loadAllQuestions();
     this.isQuizStarted = true;
   }
 
   loadAllQuestions(){
-    this.questionService.getQuestionJson().subscribe(res=>{
+    const storedQuiz = localStorage.getItem('quiz');
+    this.loadedQuiz = storedQuiz || "";
+    console.log(this.loadedQuiz);
+    this.questionService.getQuestionJson(this.loadedQuiz).subscribe(res=>{
       this.questions = res.quiz;
       this.title = res.title;
       this.desc = res.description;
