@@ -1,8 +1,7 @@
 import {Component, OnInit} from '@angular/core';
-import {Question, QuestionService, Quiz} from './question.service';
+import {Question, QuestionService} from './question.service';
 import {CommonModule} from '@angular/common';
-import {Observable} from 'rxjs';
-import {MatCard, MatCardContent, MatCardModule, MatCardTitle} from '@angular/material/card';
+import {MatCardModule} from '@angular/material/card';
 import {MatButton} from '@angular/material/button';
 
 @Component({
@@ -15,12 +14,15 @@ import {MatButton} from '@angular/material/button';
 })
 export class QuizComponent implements OnInit {
   // Declare Variables
-  isQuizStarted: boolean = false;
-  qIndex: number = 0;
-  questions: Question[] = [];
   title: string | undefined;
   desc: string | undefined;
+
+  qIndex: number = 0;
+  questions: Question[] = [];
+  selected: boolean = false;
+
   score: number = 0;
+
 
   constructor(private questionService: QuestionService) {  }
 
@@ -38,13 +40,16 @@ export class QuizComponent implements OnInit {
     })
   }
   nextQuestion(){
+    this.selected = false;
     this.qIndex++;
   }
 
   answerQuestion(index: number){
-    if(this.questions[this.qIndex].answer_index == index){
+    console.log(this.selected);
+    if(this.questions[this.qIndex].answer_index == index && !this.selected){
       this.score++;
     }
+    this.selected = true;
   }
 
 }
