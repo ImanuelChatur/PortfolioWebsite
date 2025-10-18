@@ -2,11 +2,11 @@ import {Component, OnInit} from '@angular/core';
 import {Question, QuestionService} from './question.service';
 import {CommonModule} from '@angular/common';
 import {MatCardModule} from '@angular/material/card';
-import {MatButton} from '@angular/material/button';
+import {MatButton, MatFabButton} from '@angular/material/button';
 
 @Component({
   selector: 'app-quiz',
-  imports: [CommonModule, MatCardModule, MatButton],
+  imports: [CommonModule, MatCardModule, MatButton, MatFabButton],
   templateUrl: './quiz.component.html',
   styleUrl: './quiz.component.css',
   providers: [
@@ -14,14 +14,16 @@ import {MatButton} from '@angular/material/button';
 })
 export class QuizComponent implements OnInit {
   // Declare Variables
+  isQuizStarted = false;
   title: string | undefined;
   desc: string | undefined;
 
   qIndex: number = 0;
   questions: Question[] = [];
-  selected: boolean = false;
+  selected: number = 0;
 
   score: number = 0;
+  displaySummary: boolean = false;
 
 
   constructor(private questionService: QuestionService) {  }
@@ -29,6 +31,7 @@ export class QuizComponent implements OnInit {
   ngOnInit(): void {
     this.questionService.getQuestionJson().subscribe({})
     this.loadAllQuestions();
+    this.isQuizStarted = true;
   }
 
   loadAllQuestions(){
@@ -40,16 +43,23 @@ export class QuizComponent implements OnInit {
     })
   }
   nextQuestion(){
-    this.selected = false;
     this.qIndex++;
+    //Show Answer page on next
+    this.displaySummary = false;
+
+    //If end of Quiz
+    if (this.qIndex >= this.questions.length) {
+      this.isQuizStarted = false;
+    }
   }
 
   answerQuestion(index: number){
-    console.log(this.selected);
-    if(this.questions[this.qIndex].answer_index == index && !this.selected){
+    console.log(index);
+    this.selected = index;
+    if(this.questions[this.qIndex].answer_index == index){
       this.score++;
     }
-    this.selected = true;
+    this.displaySummary = true;
   }
 
 }

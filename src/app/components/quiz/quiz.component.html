@@ -1,16 +1,25 @@
-<h1>{{ title }}</h1>
-<p>{{desc}}</p>
-<br><br>
-
-<mat-card class="question-card">
+<div *ngIf="isQuizStarted">
+  <h1 class="center">{{ title }}</h1>
+  <p class="center">{{desc}}</p>
+  <br><br>
+  <h4 class="center">{{ questions[qIndex]?.question }} ({{qIndex + 1}}/{{questions.length}})</h4>
+  <br>
+<mat-card class="question-card center">
   <mat-card-header>
-    <mat-card-title class="q-header">{{ questions[qIndex]?.question }}</mat-card-title>
+    <mat-card-title>Score: {{score}} / {{questions.length}}</mat-card-title>
   </mat-card-header>
-  <mat-card-content>
-    <ul *ngFor="let q of questions[qIndex]?.options; let i = index">
-      <button mat-raised-button (click)="answerQuestion(i)">{{q}}</button>
+  <mat-card-content *ngIf="!displaySummary">
+    <ul class="options-list">
+      <li *ngFor="let q of questions[qIndex]?.options; let i = index">
+        <button mat-fab extended class="question-button" (click)="answerQuestion(i)">{{q}}</button>
+      </li>
     </ul>
-    <button mat-raised-button color="primary" (click)="nextQuestion()">Next</button>
+  </mat-card-content>
+  <mat-card-content *ngIf="displaySummary">
+    <p>Your answer: {{questions[qIndex].options[selected]}}</p>
+    <p>Correct answer: {{questions[qIndex].options[questions[qIndex].answer_index]}}</p>
+    <button mat-raised-button color="primary" class="question-button" (click)="nextQuestion()">Next</button>
   </mat-card-content>
 </mat-card>
-<p>Score: {{score}} / {{questions.length}}</p>
+</div>
+<p></p>

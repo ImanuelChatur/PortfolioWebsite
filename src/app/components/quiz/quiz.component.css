@@ -1,19 +1,39 @@
 .question-card {
-  background-color: #fff; /* white card */
-  color: #2c3e50;         /* dark text */
   border-radius: 16px;
   padding: 1.5rem;
   box-shadow: 0 8px 20px rgba(0,0,0,0.15);
   align-content: center;
   text-align: center;
-}
-.q-header{
-  align-content: center;
-  text-align: center;
+  max-width: 75%;
 }
 
-.question-title {
-  color: #2c3e50;  /* ensures header text is readable */
-  font-size: 1.2rem;
-  font-weight: 600;
+.center {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.options-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.options-list li button {
+  width: 500%;
+  max-width: 400px;
+  align-content: center;
+}
+
+.next-button-container {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.question-button {
+  width: 80%;
+  max-width: 1px;
 }
