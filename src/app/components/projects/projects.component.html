@@ -2,21 +2,49 @@
 <div class="project-container">
   <mat-card class="project-card">
     <mat-card-header>
-      <mat-card-title>Quiz Game!</mat-card-title>
+      <mat-card-title>Quiz Game</mat-card-title>
     </mat-card-header>
     <mat-card-content>
-      <h4>Quizzes</h4>
-      <ul>
-        <li *ngFor="let q of quizList;">
-          <button (click)="setQuiz(q)" routerLinkActive="active" routerLink="quiz">{{q.slice(0,q.length-5)}}</button>
-        </li>
-      </ul>
+      <p>Select a quiz!</p>
     </mat-card-content>
+    <mat-card-actions>
+        <div *ngFor="let q of quizList;">
+          <button mat-raised-button (click)="setQuiz(q)" routerLinkActive="active" routerLink="quiz">{{q.slice(0,q.length-5)}}</button>
+        </div>
+    </mat-card-actions>
   </mat-card>
-
   <mat-card class="project-card">
     <mat-card-header>
-      <mat-card-title>Placeholder</mat-card-title>
+      <mat-card-title>Placeholder Title</mat-card-title>
     </mat-card-header>
+    <mat-card-content>Placeholder Content</mat-card-content>
+    <mat-card-actions>
+      <div *ngFor="let n of [0, 1, 2, 3]">
+        <button mat-raised-button>Button {{n}}</button>
+      </div>
+    </mat-card-actions>
   </mat-card>
+  <mat-card class="project-card">
+    <mat-card-header>
+      <mat-card-title>Placeholder Title</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>Placeholder Content</mat-card-content>
+    <mat-card-actions>
+      <div *ngFor="let n of [0, 1, 2, 3]">
+        <button mat-raised-button>Button {{n}}</button>
+      </div>
+    </mat-card-actions>
+  </mat-card>
+  <mat-card class="project-card">
+    <mat-card-header>
+      <mat-card-title>Placeholder Title</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>Placeholder Content</mat-card-content>
+    <mat-card-actions>
+      <div *ngFor="let n of [0, 1, 2, 3]">
+        <button mat-raised-button>Button {{n}}</button>
+      </div>
+    </mat-card-actions>
+  </mat-card>
+
 </div>

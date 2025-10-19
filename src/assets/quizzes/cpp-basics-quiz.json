@@ -1,0 +1,351 @@
+{
+  "title": "C++ Basics Quiz",
+  "description": "Introductory questions about C++ syntax, input/output, and fundamental concepts.",
+  "quiz": [
+    {
+      "id": 1,
+      "question": "The __________ is(are) used to display information on the computer's screen.",
+      "options": [
+        "opening and closing braces",
+        "opening and closing quotation marks",
+        "cout object",
+        "backslash",
+        "None of these"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 2,
+      "question": "Which of the following must be included in any program that uses the cout object?",
+      "options": [
+        "opening and closing braces",
+        "the header file <iostream>",
+        "comments",
+        "a namespace",
+        "None of these"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 3,
+      "question": "In a cout statement, which of the following will advance the output position to the beginning of the next line?",
+      "options": [
+        "endl or \\n",
+        "end1 or /n",
+        "\\n or \\t",
+        "\\t or \\b",
+        "\\\\ or \\'"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": 4,
+      "question": "What will the following code display?\ncout << \"Monday\";\ncout << \"Tuesday\";\ncout << \"Wednesday\";",
+      "options": [
+        "Monday\\nTuesday\\nWednesday",
+        "Monday Tuesday Wednesday",
+        "MondayTuesdayWednesday",
+        "\"Monday\"\\n\"Tuesday\"\\n\"Wednesday\"",
+        "\"Monday\" \"Tuesday\" \"Wednesday\""
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 5,
+      "question": "What will the following code display?\nint number = 23;\ncout << \"The number is \" << \"number\" << endl;",
+      "options": [
+        "The number is 23",
+        "The number is23",
+        "The number is number",
+        "The number is null",
+        "The number is"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 6,
+      "question": "What will the following code display?\ncout << \"Four\\n\" << \"score\\n\";\ncout << \"and\" << \"\\nseven\";\ncout << \"\\nyears\" << \" ago\" << endl;",
+      "options": [
+        "Four\\nscore\\nand\\nseven\\nyears ago",
+        "Four score and seven\\nyears ago",
+        "Four\\nscore\\nand seven\\nyears ago",
+        "Four score\\nand seven\\nyears ago"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": 7,
+      "question": "What will the following code display?\ncout << \"Roses \" << \"are red\";\ncout << \"and \" << \"violets/n\"\ncout << \"are\" << \"blue\" << endl;",
+      "options": [
+        "Roses are red\\nand violets\\nare blue",
+        "Roses are red and violets/nare blue",
+        "Roses are redand violets/nareblue",
+        "Roses are red and violets/n are blue"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 8,
+      "question": "What will the following code display?\nint x = 23, y = 34, z = 45;\ncout << x << y << z << endl;",
+      "options": [
+        "23 34 45",
+        "23\\n34\\n45",
+        "xyz",
+        "233445"
+      ],
+      "answer_index": 3
+    },
+    {
+      "id": 9,
+      "question": "Assuming that a program has the following string object definition, which statement correctly assigns the string literal 'Jane' to the string object?\nstring name;",
+      "options": [
+        "name = Jane;",
+        "name = 'Jane';",
+        "name = \"Jane\";",
+        "name = <Jane>;",
+        "string name = {Jane};"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 10,
+      "question": "In memory, C++ automatically places a(n) __________ at the end of string literals which __________.",
+      "options": [
+        "semicolon, indicates the end of the statement",
+        "\\n, indicates an escape sequence",
+        "null terminator, marks the end of the string",
+        "bracket, marks the end of the string",
+        "None of these"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 11,
+      "question": "The data type of a variable whose value can be either true or false is",
+      "options": ["int", "binary", "bool", "Boolean", "T/F"],
+      "answer_index": 2
+    },
+    {
+      "id": 12,
+      "question": "What will be the output after the following lines of code execute?\nbool choice;\nchoice = true;\ncout << \"Your choice is \" << choice << endl;",
+      "options": [
+        "true",
+        "Your choice is true",
+        "Your choice is 1",
+        "Your choice is choice",
+        "None of these"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 13,
+      "question": "What data type does the compiler determine for the variable cost in the following statement?\nauto cost = 14.95;",
+      "options": ["int", "double", "bool", "char", "string"],
+      "answer_index": 1
+    },
+    {
+      "id": 14,
+      "question": "The __________ causes a program to wait until information is typed at the keyboard and the [Enter] key is pressed.",
+      "options": [
+        "output stream",
+        "cin object",
+        "cout object",
+        "preprocessor",
+        "None of these"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 15,
+      "question": "The __________ operator always follows the cin object, and the __________ operator follows the cout object.",
+      "options": [
+        "binary, unary",
+        "conditional, binary",
+        ">>, <<",
+        "<<, >>",
+        "None of these"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 16,
+      "question": "Which of the following must be included in any program that uses the cin object?",
+      "options": [
+        "compiler",
+        "the header file <iostream>",
+        "linker",
+        "brackets",
+        "None of these"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 17,
+      "question": "Which of the following will allow the user to input the values 15 and 20 and have them stored in variables named base and height, respectively?",
+      "options": [
+        "cin << base << height;",
+        "cin base, height;",
+        "cin >> base >> height;",
+        "cin base >> cin height;",
+        "None of these"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 18,
+      "question": "What will be displayed after the following statements execute?\nint num1 = 5;\nint num2 = 3;\ncout << \"The result is \" << (num1 * num2 + 10) << endl;",
+      "options": [
+        "The result is 5 * 3 + 10",
+        "The result is (num1 * num2 + 10)",
+        "The result is 25",
+        "The result is 65",
+        "None of these"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 19,
+      "question": "What is the value of x after the following code executes?\nint x;\nx = 3 / static_cast<int>(4.5 + 6.4);",
+      "options": ["0.3", "0", "0.275229", "3.3", "None of these"],
+      "answer_index": 1
+    },
+    {
+      "id": 20,
+      "question": "This manipulator is used to establish a field width for the value that follows it:",
+      "options": ["field_width", "set_field", "setw", "iomanip", "None of these"],
+      "answer_index": 2
+    },
+    {
+      "id": 21,
+      "question": "You can control the number of significant digits in your output with the __________ manipulator.",
+      "options": ["setprecision", "set_precision", "to_fixed", "setfixed()", "None of these"],
+      "answer_index": 0
+    },
+    {
+      "id": 22,
+      "question": "Which of the following functions tells the cin object to skip one or more characters in the keyboard buffer?",
+      "options": ["cin.ignore", "cin.jump", "cin.hop", "cin.skip", "None of these"],
+      "answer_index": 0
+    },
+    {
+      "id": 23,
+      "question": "__________ reads a line of input, including leading and embedded spaces, and stores it in a string object.",
+      "options": ["cin.get", "getline", "cin.nextline", "get", "None of these"],
+      "answer_index": 1
+    },
+    {
+      "id": 24,
+      "question": "Which of the following statements will read an entire line of input into the string object, address?",
+      "options": [
+        "cin << address;",
+        "cin address;",
+        "cin.get(address);",
+        "getline(cin, address);",
+        "cin.get(length >> width >> height);"
+      ],
+      "answer_index": 3
+    },
+    {
+      "id": 25,
+      "question": "After the following code executes, what is the value of my_value if the user enters 0?\ncin >> my_value;\nif (my_value > 5)\n    my_value = my_value + 5;\nelse if (my_value > 2)\n    my_value = my_value + 10;\nelse\n    my_value = my_value + 15;",
+      "options": ["15", "10", "25", "0", "5"],
+      "answer_index": 0
+    },
+    {
+      "id": 26,
+      "question": "What is the output of the following code segment if the user enters 90 for the score?\ncout << \"Enter your test score: \";\ncin >> test_score;\nif (test_score < 60)\n    cout << \"You failed the test.\" << endl;\nif (test_score > 60)\n    cout << \"You passed the test.\";\nelse\n    cout << \"You need to study harder next time.\" << endl;",
+      "options": [
+        "You failed the test.",
+        "You passed the test.",
+        "You need to study harder next time.",
+        "You failed the test.\\nYou need to study harder next time.",
+        "You passed the test.\\nYou need to study harder next time."
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 27,
+      "question": "What is the output of the following segment of code if the value 4 is input by the user?\nint num;\nint total = 0;\ncout << \"Enter a number from 1 to 10: \";\ncin >> num;\nswitch (num)\n{\n    case 1:\n    case 2:   total = 5;\n    case 3:   total = 10;\n    case 4:   total = total + 3;\n    case 8:   total = total + 6;\n    default:  total = total + 4;\n}\ncout << total << endl;",
+      "options": ["0", "3", "13", "23", "None of these"],
+      "answer_index": 2
+    },
+    {
+      "id": 28,
+      "question": "These types of arguments are passed to parameters automatically if no argument is provided in the function call.",
+      "options": ["local", "default", "global", "reference", "None of these"],
+      "answer_index": 1
+    },
+    {
+      "id": 29,
+      "question": "When used as parameters, these types of variables allow a function to access the parameter's original argument:",
+      "options": ["reference", "floating-point", "counter", "undeclared", "None of these"],
+      "answer_index": 0
+    },
+    {
+      "id": 30,
+      "question": "What will the following code display?\n#include <iostream>\nusing namespace std;\nvoid doSomething(int&);\nint main()\n{\n   int x = 2;\n   cout << x << endl;\n   doSomething(x);\n   cout << x << endl;\n   return 0;\n}\nvoid doSomething(int& num)\n{\n   num = 0;\n   cout << num << endl;\n}",
+      "options": ["2\\n0\\n2", "2\\n2\\n2", "0\\n0\\n0", "2\\n0\\n0"],
+      "answer_index": 3
+    },
+    {
+      "id": 31,
+      "question": "The __________ is automatically appended to a character array when it is initialized with a string constant.",
+      "options": ["array name", "number of elements", "value of the first element", "null terminator", "None of these"],
+      "answer_index": 3
+    },
+    {
+      "id": 32,
+      "question": "An array of string objects that will hold five names would be declared with which of the following statements?",
+      "options": ["string names[5];", "string names(5);", "string names 5;", "String[5] = names;"],
+      "answer_index": 0
+    },
+    {
+      "id": 33,
+      "question": "In the following statement, what does int mean?\nint *ptr = nullptr;",
+      "options": [
+        "The variable named *ptr will store an integer value.",
+        "The variable named *ptr will store an asterisk and an integer value",
+        "ptr is a pointer variable and will store the address of an integer variable.",
+        "The variable named *ptr will store the value in nullptr.",
+        "None of these"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 34,
+      "question": "Which of the following statements deletes memory that has been dynamically allocated for an array?",
+      "options": [
+        "int array = delete memory;",
+        "int delete[ ];",
+        "delete [] array;",
+        "new array = delete;",
+        "None of these"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 35,
+      "question": "The following statement __________\nint *ptr = new int;",
+      "options": [
+        "results in a compiler error",
+        "assigns an integer less than 32767 to the variable ptr",
+        "assigns an address to the variable ptr",
+        "creates a new pointer named int",
+        "None of these"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 36,
+      "question": "Which of the following defines a unique_ptr named uniq that points to a dynamically allocated int?",
+      "options": [
+        "unique_ptr<uniq> int( new int );",
+        "unique_ptr<int> int( new uniq );",
+        "unique_ptr<uniq> uniq( new int );",
+        "unique_ptr<int> uniq( new int );",
+        "None of these"
+      ],
+      "answer_index": 3
+    }
+  ]
+}

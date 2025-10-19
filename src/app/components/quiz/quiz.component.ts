@@ -3,10 +3,11 @@ import {Question, QuestionService} from '../../services/question.service';
 import {CommonModule} from '@angular/common';
 import {MatCardModule} from '@angular/material/card';
 import {MatButton, MatFabButton} from '@angular/material/button';
+import {RouterLink, RouterLinkActive} from '@angular/router';
 
 @Component({
   selector: 'app-quiz',
-  imports: [CommonModule, MatCardModule, MatButton, MatFabButton],
+  imports: [CommonModule, MatCardModule, MatButton, MatFabButton, RouterLinkActive, RouterLink],
   templateUrl: './quiz.component.html',
   styleUrl: './quiz.component.css',
   providers: [
@@ -30,19 +31,20 @@ export class QuizComponent implements OnInit {
   constructor(private questionService: QuestionService) {  }
 
   ngOnInit(): void {
+    //Load questions and start the quiz
     this.loadAllQuestions();
     this.isQuizStarted = true;
   }
 
   loadAllQuestions(){
-    const storedQuiz = localStorage.getItem('quiz');
-    this.loadedQuiz = storedQuiz || "";
-    console.log(this.loadedQuiz);
+    //Find name of quiz from storage
+    this.loadedQuiz = localStorage.getItem('quiz') || "";
+
+    //Load questions, title and description
     this.questionService.getQuestionJson(this.loadedQuiz).subscribe(res=>{
       this.questions = res.quiz;
       this.title = res.title;
       this.desc = res.description;
-      console.log(this.questions);
     })
   }
   nextQuestion(){

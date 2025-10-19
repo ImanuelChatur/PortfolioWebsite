@@ -3,6 +3,7 @@ import {MatCardModule} from '@angular/material/card';
 import {QuestionService} from '../../services/question.service';
 import {NgForOf} from '@angular/common';
 import {RouterLink, RouterLinkActive} from '@angular/router';
+import {MatButton} from '@angular/material/button';
 
 @Component({
   selector: 'app-projects',
@@ -10,7 +11,8 @@ import {RouterLink, RouterLinkActive} from '@angular/router';
     MatCardModule,
     NgForOf,
     RouterLinkActive,
-    RouterLink
+    RouterLink,
+    MatButton
   ],
   templateUrl: './projects.component.html',
   styleUrl: './projects.component.css'
