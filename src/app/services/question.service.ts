@@ -10,7 +10,7 @@ export class QuestionService{
 
   getQuestionJson(quiz: string):Observable<Quiz>{
     console.log(`RETRIEVING QUESTIONS FROM ${quiz}`);
-    return this.http.get<Quiz>(`assets/quizzes/${quiz}.json`);
+    return this.http.get<Quiz>(`assets/quizzes/${quiz}`);
   }
 
   getQuizList():Observable<any>{
