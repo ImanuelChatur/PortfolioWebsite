@@ -43,6 +43,7 @@ export class QuizComponent implements OnInit {
     //Load questions, title and description
     this.questionService.getQuestionJson(this.loadedQuiz).subscribe(res=>{
       this.questions = res.quiz;
+      this.randomizeQuestions();
       this.title = res.title;
       this.desc = res.description;
     })
@@ -65,6 +66,24 @@ export class QuizComponent implements OnInit {
       this.score++;
     }
     this.displaySummary = true;
+  }
+
+  randomizeQuestions(){
+    let cIndex = this.questions.length, randomIndex;
+    console.log("RANDOMIZING!!!");
+    while(cIndex != 0){
+
+      //Randomize question index
+      randomIndex = Math.floor(Math.random() * cIndex);
+      [this.questions[cIndex], this.questions[randomIndex]] = [
+        this.questions[randomIndex], this.questions[cIndex]
+      ];
+
+      //randomize options index
+      randomIndex = Math.floor(Math.random() * this.questions[cIndex].options.length);
+
+      cIndex -= 1;
+    }
   }
 
 }
