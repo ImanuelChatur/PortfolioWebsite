@@ -10,7 +10,6 @@
     </mat-card-header>
     <mat-card-content>
       <h4>{{ questions[qIndex].question}}</h4>
-      <h4>({{qIndex + 1}}/{{questions.length}})</h4>
     </mat-card-content>
   </mat-card>
   <br>
@@ -28,7 +27,7 @@
   <mat-card-content *ngIf="displaySummary">
     <p>Your answer: {{questions[qIndex].options[selected]}}</p>
     <p>Correct answer: {{questions[qIndex].options[questions[qIndex].answer_index]}}</p>
-    <button mat-raised-button color="primary" class="question-button" (click)="nextQuestion()">Next</button>
+    <button mat-raised-button class="question-button" (click)="nextQuestion()">Next</button>
   </mat-card-content>
 </mat-card>
 </div>

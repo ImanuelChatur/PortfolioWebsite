@@ -9,7 +9,7 @@
 
 .question-text-card{
   border-radius: 16px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  //box-shadow: 0 8px 20px rgba(0,0,0,0.15);
   align-items: center;
   justify-content: space-between;
   width: 85%;
@@ -46,6 +46,10 @@
 
 .question-button {
   width: 100%;
+  display: flex;
+  padding: 10px;
+  min-width: 300px;
+  align-content: center;
 }
 
 .head{

@@ -1,30 +1,21 @@
 @use '@angular/material' as mat;
 
-html, main, body{
-  color-scheme: light dark;
-
-  //Theme for application
+html, main{
+  //Theming
+  color-scheme: light;
   @include mat.theme((
     color: mat.$violet-palette,
-    typography: Comic Sans MS,
-    density: 0
+    typography: Roboto,
+    density: 0,
   ));
   background-color: var(--mat-sys-background);
-  color: var(--mat-sys-on-background)
-}
-:root {
-  //@include mat.card-overrides((
-  //  elevated-container-color: orange,
-  //  elevated-container-elevation: red,
-  //));
-}
-body {
+  color: var(--mat-sys-on-background);
+
+  //Positioning
   display: flex;
   flex-direction: column;
+
 }
 
-app-root {
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
+footer{
 }
