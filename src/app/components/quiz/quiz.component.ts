@@ -9,7 +9,7 @@ import {RouterLink, RouterLinkActive} from '@angular/router';
   selector: 'app-quiz',
   imports: [CommonModule, MatCardModule, MatButton, MatFabButton, RouterLinkActive, RouterLink],
   templateUrl: './quiz.component.html',
-  styleUrl: './quiz.component.css',
+  styleUrl: './quiz.component.scss',
   providers: [
   ]
 })

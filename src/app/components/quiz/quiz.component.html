@@ -3,9 +3,17 @@
   <p class="center">{{desc}}</p>
 </div>
 <div *ngIf="isQuizStarted">
-  <div class="question-title">
-    <h4 class="center">{{ questions[qIndex]?.question }} ({{qIndex + 1}}/{{questions.length}})</h4>
-  </div>
+  <mat-card class="question-text-card center">
+    <mat-card-header>
+      <mat-card-title>
+      </mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <h4>{{ questions[qIndex].question}}</h4>
+      <h4>({{qIndex + 1}}/{{questions.length}})</h4>
+    </mat-card-content>
+  </mat-card>
+  <br>
 <mat-card class="question-card center">
   <mat-card-header>
     <mat-card-title>Score: {{score}} / {{questions.length}}</mat-card-title>

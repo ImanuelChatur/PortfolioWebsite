@@ -15,7 +15,7 @@ import {MatButton} from '@angular/material/button';
     MatButton
   ],
   templateUrl: './projects.component.html',
-  styleUrl: './projects.component.css'
+  styleUrl: './projects.component.scss'
 })
 export class ProjectsComponent implements OnInit {
 
