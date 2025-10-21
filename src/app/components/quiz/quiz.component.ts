@@ -69,7 +69,7 @@ export class QuizComponent implements OnInit {
   }
 
   randomizeQuestions(){
-    let cIndex = this.questions.length, randomIndex;
+    let cIndex = this.questions.length-1, randomIndex;
     console.log("RANDOMIZING!!!");
     while(cIndex != 0){
 
@@ -79,9 +79,8 @@ export class QuizComponent implements OnInit {
         this.questions[randomIndex], this.questions[cIndex]
       ];
 
-      //randomize options index
-      randomIndex = Math.floor(Math.random() * this.questions[cIndex].options.length);
 
+      //randomize options index
       cIndex -= 1;
     }
   }
