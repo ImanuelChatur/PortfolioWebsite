@@ -1,10 +1,9 @@
-.question-card {
+.question-card { /*Mat card*/
   border-radius: 16px;
   padding: 1.5rem;
   box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-  align-content: center;
-  text-align: center;
-  max-width: 75%;
+  align-items: center;
+  width: 75%;
 }
 
 .center {
@@ -13,17 +12,20 @@
   justify-content: center;
 }
 
-.options-list {
+.options-list { /* <ul> list*/
   list-style-type: none;
-  padding: 0;
+  padding: 10px;
+  margin: 10px auto;
   display: flex;
   flex-direction: column;
   gap: 12px;
 }
 
 .options-list li button {
-  width: 500%;
-  max-width: 400px;
+  display: flex;
+  padding: 10px;
+  width: 100%;
+  min-width: 300px;
   align-content: center;
 }
 
@@ -34,6 +36,11 @@
 }
 
 .question-button {
-  width: 80%;
-  max-width: 1px;
+  width: 5%;
+}
+
+.head{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }

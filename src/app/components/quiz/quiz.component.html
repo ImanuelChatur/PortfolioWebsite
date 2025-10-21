@@ -1,6 +1,7 @@
-<h1 class="center">{{ title }}</h1>
-<p class="center">{{desc}}</p>
-<br><br>
+<div class="head">
+  <h1 class="center">{{ title }}</h1>
+  <p class="center">{{desc}}</p>
+</div>
 <div *ngIf="isQuizStarted">
   <h4 class="center">{{ questions[qIndex]?.question }} ({{qIndex + 1}}/{{questions.length}})</h4>
   <br>
