@@ -1,9 +1,10 @@
 .question-card { /*Mat card*/
   border-radius: 16px;
-  padding: 1.5rem;
+  padding: 3rem;
   box-shadow: 0 8px 20px rgba(0,0,0,0.15);
   align-items: center;
-  width: 75%;
+  justify-content: center;
+  width: 85%;
 }
 
 .center {
@@ -36,11 +37,23 @@
 }
 
 .question-button {
-  width: 5%;
+  width: 100%;
 }
 
 .head{
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
+  padding-bottom: 20px;
+}
+.head p{
+  text-align: center;
+}
+
+.question-title h4{
+  text-align: center;
+  font-weight: normal;
+  font-size: 18px;
+  margin: 10px;
 }

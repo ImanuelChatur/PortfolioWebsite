@@ -17,3 +17,11 @@
   padding: 10px;
 }
 
+.project-head{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.project-head h1{
+  font-size: 32px;
+}
