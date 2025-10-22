@@ -6,5 +6,12 @@
       <li><a routerLink="about" routerLinkActive="active">About</a></li>
       <li><a routerLink="projects" routerLinkActive="active">Projects</a></li>
     </ul>
+    <mat-drawer-container>
+      <mat-drawer #drawer mode="side">
+        <p>Resize!</p>
+      </mat-drawer>
+    </mat-drawer-container>
+    <button (click)="drawer.toggle()"> click me!</button>
   </nav>
 </header>
+
