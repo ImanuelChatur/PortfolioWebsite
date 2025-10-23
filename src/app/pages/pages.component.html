@@ -1,16 +1,49 @@
 <mat-sidenav-container>
-  <mat-sidenav mode = "over" position="end" class="setting-list-item" #setting>
-    hello from nav!
+  <mat-sidenav mode = "over" position="end" class="setting-list-item" #mobileNav opened>
+    <mat-toolbar class="toolbar">
+      <h1>Menu</h1>
+      <span class="spacer"></span>
+      <button mat-mini-fab (click)="mobileNav.toggle()"><mat-icon>close</mat-icon></button>
+    </mat-toolbar>
+    <ul class="nav-buttons mobile-nav">
+      <li>
+        <button>
+          <a routerLink="home" routerLinkActive="active" (click)="mobileNav.toggle()">Home</a>
+        </button>
+      </li>
+      <li><button>
+        <a routerLink="about" routerLinkActive="active" (click)="mobileNav.toggle()">About</a>
+      </button>
+      </li>
+      <li>
+        <button>
+          <a routerLink="projects" routerLinkActive="active" (click)="mobileNav.toggle()">Projects</a>
+          </button>
+      </li>
+    </ul>
   </mat-sidenav>
 
-  <mat-toolbar class="toolbar">
-    <span class="toolbar-title">Imanuel Chatur</span>
+  <mat-toolbar class="toolbar" *ngIf="!isMobile">
+    <span class="toolbar-title">{{breadcrumb}}</span>
     <span class="spacer"></span>
-
-    <button mat-mini-fab (click)="setting.toggle()">
+    <span class="nav-buttons">
+      <a routerLink="home" routerLinkActive="active">Home</a>
+      <a routerLink="about" routerLinkActive="active">About</a>
+      <a routerLink="projects" routerLinkActive="active">Projects</a>
+    </span>
+    <button mat-mini-fab (click)="mobileNav.toggle()">
       <mat-icon>tune</mat-icon>
     </button>
   </mat-toolbar>
+
+  <mat-toolbar class="toolbar" *ngIf="isMobile">
+    <span class="toolbar-title">{{breadcrumb}}</span>
+    <span class="spacer"></span>
+    <button mat-mini-fab (click)="mobileNav.toggle()">
+      <mat-icon>menu</mat-icon>
+    </button>
+  </mat-toolbar>
+
 
   <router-outlet></router-outlet>
 </mat-sidenav-container>

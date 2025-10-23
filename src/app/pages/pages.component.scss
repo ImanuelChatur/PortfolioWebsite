@@ -38,3 +38,36 @@ a[matListItemTitle] {
   text-decoration: none;
 }
 //mine
+
+.nav-buttons a{
+  color: var(--mat-sys-on-primary);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;         /* Increase text size */
+  padding: 10px 16px;        /* Bigger clickable area */
+  border-radius: 6px;        /* Optional: rounded edges */
+  transition: background-color 0.2s ease;
+}
+.nav-buttons a:hover, .nav-buttons a.active {
+  color: white;
+}
+
+.mobile-nav a{
+  color: var(--mat-sys-on-background);
+}
+
+.mobile-nav a.active{
+  color: var(--mat-sys-primary);
+}
+
+ul{
+  list-style-type: none;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 10px;
+}
+li{
+  padding: 10px;
+}

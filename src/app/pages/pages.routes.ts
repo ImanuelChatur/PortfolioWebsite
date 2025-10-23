@@ -12,20 +12,25 @@ export const routes: Routes = [{
   children: [{
 
     path: '',
-    component : HomeComponent
+    component : HomeComponent,
+    data: {breadcrumb: 'Home'}
   },{
 
     path: 'about',
-    component : AboutComponent
+    component : AboutComponent,
+    data: {breadcrumb: 'About'}
   },{
 
     path: 'projects',
-    component : ProjectsComponent
+    component : ProjectsComponent,
+    data: {breadcrumb: 'Projects'}
   },{
     path: 'home',
-    redirectTo: ''
+    component : HomeComponent,
+    data: {breadcrumb: 'Home'}
   },{
     path: 'projects/quiz',
-    component  : QuizComponent
+    component : QuizComponent,
+    data: {breadcrumb: 'Quiz'}
   }]
 }];

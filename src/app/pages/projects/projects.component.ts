@@ -2,7 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import {MatCardModule} from '@angular/material/card';
 import {QuestionService} from '../../services/question.service';
 import {NgForOf} from '@angular/common';
-import {RouterLink, RouterLinkActive} from '@angular/router';
+import {RouterLink, RouterLinkActive, RouterOutlet} from '@angular/router';
 import {MatButton} from '@angular/material/button';
 
 @Component({
@@ -12,7 +12,7 @@ import {MatButton} from '@angular/material/button';
     NgForOf,
     RouterLinkActive,
     RouterLink,
-    MatButton
+    MatButton,
   ],
   templateUrl: './projects.component.html',
   styleUrl: './projects.component.scss'

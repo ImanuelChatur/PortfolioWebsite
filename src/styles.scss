@@ -12,7 +12,7 @@ html {
     @include theme.high-contrast-overrides('light');
   }
 
-  color-scheme: dark;
+  color-scheme: light dark;
   @include mat.theme((color: mat.$azure-palette));
 
   color: var(--mat-sys-on-background);
