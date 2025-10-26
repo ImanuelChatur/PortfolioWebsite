@@ -1,0 +1,446 @@
+{
+  "title": "Information Security Threats and Risk Assessment - Comprehensive Review",
+  "description": "A comprehensive 40-question quiz covering all key terminology, concepts, threat actors, and defense principles from the module slides.",
+  "quiz": [
+    {
+      "id": 1,
+      "question": "What are the three core principles of information protection, often referred to as the C.I.A. triangle?",
+      "options": [
+        "Compliance, Integrity, and Authentication",
+        "Confidentiality, Integrity, and Availability",
+        "Control, Implementation, and Access",
+        "Confidentiality, Implementation, and Assurance"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 2,
+      "question": "The quality or state of being whole, complete, and uncorrupted is the definition of which C.I.A. principle?",
+      "options": [
+        "Confidentiality",
+        "Availability",
+        "Integrity",
+        "Authenticity"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 3,
+      "question": "Which security measure is specifically used to protect the **confidentiality** of information?",
+      "options": [
+        "System redundancy",
+        "Information classification",
+        "Data backups",
+        "Auditing user activity"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 4,
+      "question": "In the context of **availability**, a 'user' can be either a person or what other entity?",
+      "options": [
+        "A system administrator",
+        "An authorized third party",
+        "A piece of hardware",
+        "Another computer system"
+      ],
+      "answer_index": 3
+    },
+    {
+      "id": 5,
+      "question": "What is the general relationship between security and convenience?",
+      "options": [
+        "They are directly proportional (increase together)",
+        "They are unrelated",
+        "As security is increased, convenience is often decreased",
+        "They are inversely proportional only for hardware devices"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 6,
+      "question": "Information's **integrity** is threatened when it is exposed to corruption, damage, destruction, or other disruption of its:",
+      "options": [
+        "Availability",
+        "Original format",
+        "Authentic state",
+        "Confidentiality policies"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 7,
+      "question": "In the security rings model, which layer represents the 'security around the data' and may be as basic as door locks or as complicated as network equipment?",
+      "options": [
+        "People",
+        "Policies and procedures",
+        "Products",
+        "Controls"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 8,
+      "question": "What is defined as an 'Item that has value' in the information security terminology?",
+      "options": [
+        "Vulnerability",
+        "Threat",
+        "Risk",
+        "Asset"
+      ],
+      "answer_index": 3
+    },
+    {
+      "id": 9,
+      "question": "What is a 'Flaw or weakness that allows a threat agent to bypass security'?",
+      "options": [
+        "Threat",
+        "Vulnerability",
+        "Risk",
+        "Attack vector"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 10,
+      "question": "In the scooter analogy, the 'Thief' represents which information security term?",
+      "options": [
+        "Vulnerability",
+        "Attack vector",
+        "Threat actor",
+        "Risk"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 11,
+      "question": "What term is defined as 'The means by which an attack can occur'?",
+      "options": [
+        "Threat",
+        "Vulnerability",
+        "Threat vector",
+        "Risk"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 12,
+      "question": "Which risk response technique involves acknowledging the risk but taking no steps to address it?",
+      "options": [
+        "Mitigate",
+        "Transfer",
+        "Avoid",
+        "Accept"
+      ],
+      "answer_index": 3
+    },
+    {
+      "id": 13,
+      "question": "The asset category of **Software** includes which component?",
+      "options": [
+        "Bridges and routers",
+        "Files and databases",
+        "The operating system",
+        "Data communications devices"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 14,
+      "question": "Which of the following is an example of a **Confidentiality** threat against **Software**?",
+      "options": [
+        "An unauthorized copy of software is made.",
+        "A working program is modified.",
+        "Programs are deleted.",
+        "Messages are read."
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": 15,
+      "question": "Which of the following is an example of an **Integrity** threat against **Data**?",
+      "options": [
+        "Files are deleted.",
+        "An unauthorized read is performed.",
+        "Existing files are modified or new files are fabricated.",
+        "A statistical analysis reveals underlying data."
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 16,
+      "question": "A **Passive Attack** attempts to learn or make use of information from the system but does not affect:",
+      "options": [
+        "The attacker's resources",
+        "System resources",
+        "The message header",
+        "User permissions"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 17,
+      "question": "Eavesdropping on, or monitoring of, transmissions is characteristic of which type of attack?",
+      "options": [
+        "Active Attack",
+        "Passive Attack",
+        "Distributed Attack",
+        "Insider Attack"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 18,
+      "question": "Which of the following is categorized as a type of **Active Attack**?",
+      "options": [
+        "Release of message contents",
+        "Traffic analysis",
+        "Replay",
+        "Eavesdropping"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 19,
+      "question": "The **Attack Surface** consists of the reachable and exploitable in a system.",
+      "options": [
+        "Assets",
+        "Policies",
+        "Vulnerabilities",
+        "Threat actors"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 20,
+      "question": "Vulnerabilities created by personnel or outsiders, such as social engineering, human error, and trusted insiders, belong to which attack surface category?",
+      "options": [
+        "Network Attack Surface",
+        "Software Attack Surface",
+        "Hardware Attack Surface",
+        "Human Attack Surface"
+      ],
+      "answer_index": 3
+    },
+    {
+      "id": 21,
+      "question": "A particular focus of the **Software Attack Surface** is vulnerabilities in which type of code?",
+      "options": [
+        "Network protocol code",
+        "Web server software",
+        "Hardware firmware",
+        "Encryption algorithms"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 22,
+      "question": "What is often the primary objective of an organization’s information security, involving stealing proprietary business information or personal credit card numbers?",
+      "options": [
+        "Maintaining productivity",
+        "Preventing data theft",
+        "Thwarting identity theft",
+        "Avoiding legal consequences"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 23,
+      "question": "The Sarbanes-Oxley Act of 2002 (Sarbox) is listed as a law protecting what?",
+      "options": [
+        "Cyberterrorism efforts",
+        "Electronic data privacy",
+        "Software integrity",
+        "Information availability"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 24,
+      "question": "What is defined as 'Any premeditated, politically motivated attack against information, computer systems, computer programs, and data'?",
+      "options": [
+        "Hactivism",
+        "Financial cybercrime",
+        "Advanced Persistent Threat (APT)",
+        "Cyberterrorism"
+      ],
+      "answer_index": 3
+    },
+    {
+      "id": 25,
+      "question": "Which threat actor group launches attacks for **ideological reasons** that are generally not as well-defined as a cyberterrorist’s motivation?",
+      "options": [
+        "Script Kiddies",
+        "Hactivists",
+        "Brokers",
+        "Insiders"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 26,
+      "question": "What type of threat actor is known for being well-resourced and highly trained, often commissioned by governments to attack enemies’ information systems?",
+      "options": [
+        "Organized crime",
+        "Competitors",
+        "Nation state actor",
+        "Script Kiddies"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 27,
+      "question": "Threat actors who download automated hacking software (scripts) from websites are called what?",
+      "options": [
+        "Nation state actors",
+        "Hactivists",
+        "Brokers",
+        "Script Kiddies"
+      ],
+      "answer_index": 3
+    },
+    {
+      "id": 28,
+      "question": "Which defense principle involves creating information security in layers, also known as **defense-in-depth**?",
+      "options": [
+        "Limiting",
+        "Diversity",
+        "Layering",
+        "Obscurity"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 29,
+      "question": "The principle of **Limiting** suggests that access to data should be limited to only what a user needs to do their job, which is known as:",
+      "options": [
+        "Defense-in-depth",
+        "Need-to-know",
+        "Control diversity",
+        "Policy enforcement"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 30,
+      "question": "Which defense principle dictates that the layers of security must be different, such as using security products from different manufacturers?",
+      "options": [
+        "Simplicity",
+        "Diversity",
+        "Obscurity",
+        "Limiting"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 31,
+      "question": "The principle of **Obscurity** suggests not revealing details such as the type of computer or the operating system version. Why is this beneficial?",
+      "options": [
+        "It complies with legal regulations.",
+        "It makes it difficult for an attacker to devise an attack.",
+        "It reduces the complexity of the system.",
+        "It provides control diversity."
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 32,
+      "question": "Which defense principle states that a secure system should be simple from the inside but complex from the outside?",
+      "options": [
+        "Simplicity",
+        "Layering",
+        "Diversity",
+        "Obscurity"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": 33,
+      "question": "What term describes a computer system that is used as an **active tool** to conduct an attack?",
+      "options": [
+        "Object of an attack",
+        "Asset",
+        "Subject of an attack",
+        "Control"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 34,
+      "question": "Which of the 'More Critical Characteristics of Information' is defined as the quality or state of having value for some purpose or end?",
+      "options": [
+        "Authenticity",
+        "Accuracy",
+        "Possession",
+        "Utility"
+      ],
+      "answer_index": 3
+    },
+    {
+      "id": 35,
+      "question": "When a control provides proof that a user possesses the identity that he or she claims, this is referred to as:",
+      "options": [
+        "Authorization",
+        "Accountability",
+        "Authenticity",
+        "Authentication"
+      ],
+      "answer_index": 3
+    },
+    {
+      "id": 36,
+      "question": "The process that provides assurance that the user has been specifically and explicitly allowed to access, update, or delete information is called:",
+      "options": [
+        "Authentication",
+        "Authorization",
+        "Accountability",
+        "Utility"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 37,
+      "question": "Which characteristic exists when every activity undertaken can be attributed to a named person or automated process?",
+      "options": [
+        "Authentication",
+        "Accountability",
+        "Authorization",
+        "Accuracy"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 38,
+      "question": "The implementation of information security is often described as a combination of **Art** and **Science**. What other field is security said to examine by studying the behavior of individuals interacting with systems?",
+      "options": [
+        "Applied technology",
+        "Mathematics",
+        "Social science",
+        "Engineering"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 39,
+      "question": "Which data responsibility role is accountable for the **security and use** of a particular set of information?",
+      "options": [
+        "Data Custodian",
+        "Data User",
+        "Data Administrator",
+        "Data Owner"
+      ],
+      "answer_index": 3
+    },
+    {
+      "id": 40,
+      "question": "Which data responsibility role is accountable for the **storage, maintenance, and protection** of information?",
+      "options": [
+        "Data Custodian",
+        "Data Owner",
+        "Data User",
+        "Data Administrator"
+      ],
+      "answer_index": 0
+    }
+  ]
+}

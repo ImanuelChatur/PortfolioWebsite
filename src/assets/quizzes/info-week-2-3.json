@@ -1,0 +1,446 @@
+{
+  "title": "Risk Management and Asset Classification (Weeks 2 & 3 Review)",
+  "description": "A 40-question quiz on the process of Risk Management, Risk Identification, Asset Classification, and Data Security Clearances, based exclusively on the module slides.",
+  "quiz": [
+    {
+      "id": 1,
+      "question": "What is defined as the **process of identifying and controlling risks** facing an organization?",
+      "options": [
+        "Risk Control",
+        "Risk Identification",
+        "Risk Management",
+        "Asset Characterization"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 2,
+      "question": "What is the process of **examining an organization’s current information technology security situation**?",
+      "options": [
+        "Risk Identification",
+        "Risk Control",
+        "Weighted Factor Analysis",
+        "Security Assessment"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": 3,
+      "question": "The general risk management philosophy includes 'Know yourself' and 'Know the enemy.' What does 'Know yourself' involve?",
+      "options": [
+        "Identifying threats facing the organization.",
+        "Identifying, examining, and understanding the information and systems currently in place.",
+        "Managing all encountered risks.",
+        "Applying controls to reduce risks."
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 4,
+      "question": "Which phase of the risk identification process is responsible for **applying controls to reduce risks** to an organization’s data and information systems?",
+      "options": [
+        "Risk Identification",
+        "Risk Management",
+        "Risk Control",
+        "Asset Inventory"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 5,
+      "question": "According to the Risk Identification Process figure (Figure 7-1), which step immediately follows 'Identify Threats'?",
+      "options": [
+        "Assess Likelihood for Vulnerabilities",
+        "Specify Vulnerable Assets",
+        "Calculate Relative Risk Factor for Assets",
+        "Assign Value or Impact Rating to Assets"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 6,
+      "question": "What is the **goal** of creating an Inventory of Information Assets?",
+      "options": [
+        "To only identify assets that are Restricted.",
+        "To classify assets into five useful groups.",
+        "To Pro-actively gather all necessary information about an organization’s assets.",
+        "To assign value to assets before they are identified."
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 7,
+      "question": "What percentage of all information security incidents in 2011 were identified by **third parties** (e.g., law enforcement, other ISPs), according to the slides?",
+      "options": [
+        "32%",
+        "67%",
+        "75%",
+        "92%"
+      ],
+      "answer_index": 3
+    },
+    {
+      "id": 8,
+      "question": "Which asset identification approach involves talking to co-workers and learning the inner workings of the company (Learning curve, Employee knowledge)?",
+      "options": [
+        "Top down",
+        "Outside-in",
+        "Bottom up",
+        "Asset lifecycle review"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 9,
+      "question": "Which asset identification approach involves reviewing the company's Mission Statement and Annual Reports?",
+      "options": [
+        "Bottom up",
+        "Top down",
+        "External audit",
+        "Compliance-driven"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 10,
+      "question": "Which of the following is one of the five important **Asset Types** identified in the slides?",
+      "options": [
+        "Financial Assets",
+        "Legal Assets",
+        "Physical Assets",
+        "Network Assets"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 11,
+      "question": "Which asset type is usually the **most important** for information security and the **prime target for attackers**?",
+      "options": [
+        "Hardware Assets",
+        "Personnel Assets",
+        "Information Assets",
+        "Software Assets"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 12,
+      "question": "A locally developed utility or specialized software is considered an example of what kind of asset?",
+      "options": [
+        "General Software Asset",
+        "Distinctive Software Asset",
+        "Hardware Asset",
+        "Proprietary Asset"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 13,
+      "question": "A Microsoft Office **License** falls under which category of asset?",
+      "options": [
+        "Software Asset",
+        "Information Asset",
+        "Legal Asset",
+        "Hardware Asset"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 14,
+      "question": "What is the term for the potential **Damage from a breach of confidentiality or integrity** of an asset?",
+      "options": [
+        "Criticality",
+        "Sensitivity",
+        "Vulnerability",
+        "Likelihood"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 15,
+      "question": "What is the term for the **Importance of an asset to the immediate survival** of the organization?",
+      "options": [
+        "Criticality",
+        "Sensitivity",
+        "Relative Value",
+        "Asset Utility"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": 16,
+      "question": "An asset whose disclosure or alteration **would have adverse consequences** for the organization (e.g., student grades) is classified as:",
+      "options": [
+        "Unrestricted",
+        "Public",
+        "Restricted",
+        "Sensitive"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 17,
+      "question": "An asset whose loss of availability **would have severe immediate repercussions** for the organization (e.g., DNS server) is classified as:",
+      "options": [
+        "Required",
+        "Deferrable",
+        "Essential",
+        "Critical"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 18,
+      "question": "An asset where the organization **would be able to continue for a time without the asset** (e.g., Learning Management System) is classified as:",
+      "options": [
+        "Essential",
+        "Required",
+        "Deferrable",
+        "Unrestricted"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 19,
+      "question": "A University website, where the loss of availability is **tolerable**, is an example of which criticality classification?",
+      "options": [
+        "Essential",
+        "Required",
+        "Deferrable",
+        "Public"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 20,
+      "question": "According to the asset example table, Student Grades (Informational Asset) have which combination of Sensitivity and Criticality?",
+      "options": [
+        "Unrestricted, Required",
+        "Restricted, Deferrable",
+        "Restricted, Essential",
+        "Unrestricted, Essential"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 21,
+      "question": "Which IT system component category includes **Trusted employees** and **Other staff** in the Risk Management Components table?",
+      "options": [
+        "Procedures",
+        "People",
+        "Hardware",
+        "Data"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 22,
+      "question": "Which of the following is listed as an attribute to track for **Hardware** assets?",
+      "options": [
+        "Security clearance level",
+        "Manufacturer’s model or part number",
+        "Data structure used",
+        "Intended purpose"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 23,
+      "question": "Which of the following is a suggested attribute to track for **People** assets?",
+      "options": [
+        "MAC address",
+        "Backup procedures",
+        "Software version, update revision",
+        "Security clearance level"
+      ],
+      "answer_index": 3
+    },
+    {
+      "id": 24,
+      "question": "Which is an example of an **Information Gathering Technique** for asset identification?",
+      "options": [
+        "Threat Modeling",
+        "On-site Interviews",
+        "Penetration Testing",
+        "Risk Analysis"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 25,
+      "question": "Which characteristic is **not** one of the questions used to assign a **relative value** to an information asset?",
+      "options": [
+        "Which asset is the most expensive to protect?",
+        "Which asset generates the highest profitability?",
+        "Which asset is the most commonly attacked?",
+        "Which asset’s loss would be the most embarrassing?"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 26,
+      "question": "The final step in the risk identification process is to list assets in order of importance, which can be achieved using what type of document?",
+      "options": [
+        "Data Classification Model",
+        "Vulnerability Risk Worksheet",
+        "Weighted factor analysis worksheet",
+        "Security Clearance Structure"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 27,
+      "question": "Who must classify information assets for which they are responsible and review the classifications periodically?",
+      "options": [
+        "Data Users",
+        "Data Custodians",
+        "Security Analysts",
+        "Data Owners"
+      ],
+      "answer_index": 3
+    },
+    {
+      "id": 28,
+      "question": "Which data classification level is part of the common **corporate** example classification scheme but **not** the five-level U.S. Military scheme listed?",
+      "options": [
+        "Top Secret Data",
+        "For Official Use Only",
+        "Confidential Data",
+        "Unclassified Data"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 29,
+      "question": "The U.S. military classification scheme uses **five** levels as defined in which Executive Order?",
+      "options": [
+        "Executive Order 12958",
+        "Executive Order 13233",
+        "Executive Order 13636",
+        "Executive Order 12720"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": 30,
+      "question": "The Canadian military classification scheme includes which additional, specific classification levels?",
+      "options": [
+        "Private, Public, Sensitive",
+        "Protected A, Protected B, Protected C",
+        "Internal, External, Proprietary",
+        "Unclassified, Classified, Secret"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 31,
+      "question": "The **Need-to-know principle** dictates that an individual must **not only** have the security clearance but also what?",
+      "options": [
+        "A written authorization from the Data Owner.",
+        "A signed non-disclosure agreement.",
+        "Need-to-know the data for their work.",
+        "Be able to justify the access to IT."
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 32,
+      "question": "What term is defined as **salvaging useful items** from discarded commercial or industrial containers?",
+      "options": [
+        "Scavenging",
+        "Dumpster diving",
+        "Social engineering",
+        "Shoulder surfing"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 33,
+      "question": "What is a policy managers can implement to help maintain the confidentiality of classified documents by keeping desks clear?",
+      "options": [
+        "Physical Security Policy",
+        "Clean Desk Policy",
+        "Data Retention Policy",
+        "Data Destruction Policy"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 34,
+      "question": "When classified information copies are no longer valuable, what should be done to discourage dumpster diving?",
+      "options": [
+        "They should be backed up.",
+        "They should be archived and marked 'Confidential'.",
+        "They should be destroyed properly.",
+        "They should be relocated to off-site storage."
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 35,
+      "question": "The formula for **Risk** is: Likelihood multiplied by Asset Value minus Controls plus what final component?",
+      "options": [
+        "Vulnerability",
+        "Uncertainty",
+        "Threat Actor",
+        "Exposure Factor"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 36,
+      "question": "What term is defined as the overall rating—often a numerical value on a defined scale—of the **probability that a specific vulnerability will be exploited**?",
+      "options": [
+        "Uncertainty",
+        "Risk Factor",
+        "Likelihood",
+        "Impact Rating"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 37,
+      "question": "What must a manager estimate if a vulnerability is only **partially controlled** by an existing safeguard?",
+      "options": [
+        "The impact if the control fails.",
+        "The cost to implement a new control.",
+        "The percentage of the vulnerability that has been controlled.",
+        "The time until the vulnerability is fully exploited."
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 38,
+      "question": "Uncertainty is an estimate made by the manager using what two elements?",
+      "options": [
+        "Quantitative metrics and qualitative analysis",
+        "Industry standards and best practices",
+        "Judgment and experience",
+        "Asset criticality and asset sensitivity"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 39,
+      "question": "Which of the following is **not** one of the three general categories of controls listed in the slides?",
+      "options": [
+        "Policies",
+        "Programs",
+        "Technical controls",
+        "Procedures"
+      ],
+      "answer_index": 3
+    },
+    {
+      "id": 40,
+      "question": "The final summarized document of the risk identification process is called the:",
+      "options": [
+        "Asset Classification Worksheet",
+        "Weighted Factor Analysis Worksheet",
+        "Ranked Vulnerability Risk Worksheet",
+        "Risk Control Plan"
+      ],
+      "answer_index": 2
+    }
+  ]
+}

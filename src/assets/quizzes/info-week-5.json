@@ -1,0 +1,446 @@
+{
+  "title": "Risk Control, Residual Risk, and Asset Detail (Week 5 Review)",
+  "description": "A comprehensive 40-question quiz focusing on the final stages of the Risk Management process, including risk calculation, control categories, residual risk, and detailed asset attributes, based exclusively on the module slides.",
+  "quiz": [
+    {
+      "id": 1,
+      "question": "What is the formula presented in the slides for determining overall **Risk**?",
+      "options": [
+        "Risk = Threat x Vulnerability x Asset Value",
+        "Risk = (Likelihood x Asset Value) - Controls + Uncertainty",
+        "Risk = SLE x ARO + Residual Risk",
+        "Risk = (Asset Value x Exposure Factor) - Safeguards"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 2,
+      "question": "What is the final summarized document resulting from the risk identification process?",
+      "options": [
+        "The Asset Valuation Summary",
+        "The Final Control Strategy Report",
+        "The Ranked Vulnerability Risk Worksheet",
+        "The Weighted Factor Analysis Worksheet"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 3,
+      "question": "If a vulnerability is only **partially controlled** by an existing safeguard, what must the manager estimate?",
+      "options": [
+        "The cost to fully control the vulnerability.",
+        "The time until the control expires.",
+        "The percentage of the vulnerability that has been controlled.",
+        "The impact if the vulnerability is exploited."
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 4,
+      "question": "What are the two components a manager uses to estimate **Uncertainty**?",
+      "options": [
+        "Financial data and industry standards",
+        "Judgment and experience",
+        "Asset Value and Exposure Factor",
+        "Likelihood and Impact Rating"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 5,
+      "question": "What are the **three general categories** of controls listed in the slides for reducing risk?",
+      "options": [
+        "Administrative, Physical, and Logical controls",
+        "Policies, Programs, and Technical controls",
+        "Avoidance, Mitigation, and Acceptance controls",
+        "Deterrent, Detective, and Corrective controls"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 6,
+      "question": "Risk that remains after all known, cost-effective controls have been applied is called what?",
+      "options": [
+        "Total Risk",
+        "Residual Risk",
+        "Calculated Risk",
+        "Transferred Risk"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 7,
+      "question": "The significance of residual risk must be judged within the context of an organization's:",
+      "options": [
+        "Total Asset Value",
+        "Exposure Factor",
+        "Risk Appetite",
+        "Annual Loss Expectancy"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 8,
+      "question": "What is the ultimate **goal** of information security regarding residual risk?",
+      "options": [
+        "To eliminate all residual risk (bring it to zero).",
+        "To transfer all residual risk via insurance.",
+        "To bring residual risk in line with the organization’s risk appetite.",
+        "To maximize the cost/benefit of controlling the risk."
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 9,
+      "question": "Which of the following is **not** one of the three components that make up the definition of Residual Risk?",
+      "options": [
+        "Risk from a threat less the effect of threat-reducing safeguards.",
+        "Risk from a vulnerability less the effect of vulnerability-reducing safeguards.",
+        "Risk from a control less the effect of control-reducing safeguards.",
+        "Risk to an asset less the effect of asset value-reducing safeguards."
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 10,
+      "question": "According to the Risk Identification Process figure (Figure 7-1), what is the first step in the process?",
+      "options": [
+        "Identify Assets",
+        "Identify Threats",
+        "Specify Vulnerable Assets",
+        "Assign Value or Impact Rating to Assets"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": 11,
+      "question": "Which asset identification approach involves reviewing the company's organizational chart and mission statement?",
+      "options": [
+        "Top down",
+        "Bottom up",
+        "Outside-in",
+        "Compliance-driven"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": 12,
+      "question": "What is the asset identification approach that involves starting with individual employees and assets, building the picture of the organization's needs from the ground up?",
+      "options": [
+        "Top down",
+        "Bottom up",
+        "Outside-in",
+        "Gap analysis"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 13,
+      "question": "Which of the five asset types is the **most important** for information security?",
+      "options": [
+        "Personnel Assets",
+        "Hardware Assets",
+        "Information Assets",
+        "Software Assets"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 14,
+      "question": "Which of the following is an example of an asset attribute to track for **Hardware**?",
+      "options": [
+        "Security clearance level",
+        "System authentication level",
+        "Manufacturer’s model or part number",
+        "Operating system and revision"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 15,
+      "question": "What is the suggested attribute to track for **People** assets in the inventory table?",
+      "options": [
+        "Physical address",
+        "Security clearance level",
+        "Job title and salary",
+        "Certification status"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 16,
+      "question": "Which asset attribute tracks the source of the data for **Data** assets?",
+      "options": [
+        "Owner",
+        "Data structure used",
+        "Location",
+        "Intended purpose"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": 17,
+      "question": "What is the potential **Damage from a breach of confidentiality or integrity** of an asset called?",
+      "options": [
+        "Criticality",
+        "Feasibility",
+        "Sensitivity",
+        "Availability"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 18,
+      "question": "What is the **Importance of an asset to the immediate survival** of the organization called?",
+      "options": [
+        "Criticality",
+        "Feasibility",
+        "Sensitivity",
+        "Accountability"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": 19,
+      "question": "An asset whose disclosure or alteration **would have adverse consequences** for the organization is classified as:",
+      "options": [
+        "Unrestricted",
+        "Public",
+        "Restricted",
+        "Confidential"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 20,
+      "question": "An asset whose loss of availability **would have severe immediate repercussions** is classified as:",
+      "options": [
+        "Required",
+        "Deferrable",
+        "Essential",
+        "Critical"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 21,
+      "question": "What classification does an asset receive if the organization **would be able to continue for a time without it**?",
+      "options": [
+        "Essential",
+        "Required",
+        "Deferrable",
+        "Unrestricted"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 22,
+      "question": "Which classification in the **corporate** scheme is equivalent to the military's 'Confidential' data?",
+      "options": [
+        "Public Data",
+        "Proprietary Data",
+        "Internal Data",
+        "Private Data"
+      ],
+      "answer_index": 3
+    },
+    {
+      "id": 23,
+      "question": "What is the Canadian military classification that is equivalent to the U.S. military’s 'Confidential' data?",
+      "options": [
+        "Protected A",
+        "Protected B",
+        "Protected C",
+        "Secret"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 24,
+      "question": "What principle dictates that an individual must **not only** have the security clearance but also a legitimate, work-related reason to access the data?",
+      "options": [
+        "Least Privilege",
+        "Need-to-know",
+        "Defense-in-depth",
+        "Control Diversity"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 25,
+      "question": "What type of attack involves retrieving useful items from discarded commercial or industrial containers?",
+      "options": [
+        "Scavenging",
+        "Dumpster diving",
+        "Shoulder surfing",
+        "Pretexting"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 26,
+      "question": "What policy can managers implement to help maintain the confidentiality of classified documents by ensuring desks are clear of sensitive material at the end of the day?",
+      "options": [
+        "Data Retention Policy",
+        "Acceptable Use Policy",
+        "Clean Desk Policy",
+        "Physical Security Policy"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 27,
+      "question": "What is the step that immediately follows 'Determine Likelihood of Vulnerability Exploitation' in the Risk Identification Process flow?",
+      "options": [
+        "Identify Threats",
+        "Calculate Relative Risk Factor for Assets",
+        "Specify Vulnerable Assets",
+        "Assign Value or Impact Rating to Assets"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 28,
+      "question": "Which of the following is **not** one of the five useful groups for classifying information assets?",
+      "options": [
+        "Personnel",
+        "Procedures",
+        "Legal Assets",
+        "Physical Assets"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 29,
+      "question": "Who must classify information assets and review those classifications periodically?",
+      "options": [
+        "Data Users",
+        "Data Custodians",
+        "Security Analysts",
+        "Data Owners"
+      ],
+      "answer_index": 3
+    },
+    {
+      "id": 30,
+      "question": "What is the purpose of the **Weighted Factor Analysis Worksheet**?",
+      "options": [
+        "To calculate the Annual Loss Expectancy (ALE).",
+        "To list assets in order of importance for protection.",
+        "To determine the feasibility of a proposed control.",
+        "To document the residual risk remaining after a control."
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 31,
+      "question": "In the US Military Classification Scheme, which level is the **second highest** and has specific rules for declassification?",
+      "options": [
+        "Top Secret Data",
+        "Secret Data",
+        "Confidential Data",
+        "Unclassified Data"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 32,
+      "question": "The corporate classification level **Public Data** is comparable to which US Military classification level?",
+      "options": [
+        "Unclassified Data",
+        "Confidential Data",
+        "For Official Use Only",
+        "Secret Data"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": 33,
+      "question": "An action plan for control strategy includes concrete tasks, each with accountability assigned to an organizational unit or to an:",
+      "options": [
+        "Authorized external consultant",
+        "Individual",
+        "IT Security system",
+        "Data Owner"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 34,
+      "question": "What happens to a vulnerability in the risk identification process if it is **fully managed** by an existing control?",
+      "options": [
+        "It is assigned a high uncertainty rating.",
+        "It is set aside.",
+        "It is reclassified as a mitigated risk.",
+        "It is transferred to a third party."
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 35,
+      "question": "Which of the following would be an attribute to track for **Software** assets?",
+      "options": [
+        "Backup procedures",
+        "MAC address",
+        "Manufacturer’s model or part number",
+        "Security clearance level"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": 36,
+      "question": "What is the third step in the NIST methodology (which is a model for risk assessment)?",
+      "options": [
+        "Identify Assets",
+        "Identify Threats",
+        "Characterize System",
+        "Determine Controls"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 37,
+      "question": "Which asset type includes legal contracts, agreements, and licenses?",
+      "options": [
+        "Information Assets",
+        "Software Assets",
+        "Legal Assets",
+        "Hardware Assets"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 38,
+      "question": "What is the primary method of gathering information for asset identification in the **Bottom Up** approach?",
+      "options": [
+        "Reviewing high-level corporate documents.",
+        "Performing external penetration testing.",
+        "Talking to co-workers and learning the inner workings of the company.",
+        "Analyzing legal and compliance requirements."
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 39,
+      "question": "Which of the following is **not** one of the four questions used to assign a **relative value** to an information asset (which informs the Weighted Factor Analysis)?",
+      "options": [
+        "Which asset is the most embarrassing if lost?",
+        "Which asset generates the highest profitability?",
+        "Which asset is the most expensive to replace?",
+        "Which asset’s loss would be the most difficult to recover?"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 40,
+      "question": "A documented control strategy for each asset-threat pair must clearly identify any what?",
+      "options": [
+        "Estimated Cost/Benefit",
+        "Annual Loss Expectancy (ALE)",
+        "Residual risk remaining",
+        "Feasibility issues"
+      ],
+      "answer_index": 2
+    }
+  ]
+}
