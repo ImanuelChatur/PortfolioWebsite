@@ -9,12 +9,12 @@ import {Title} from '@angular/platform-browser';
 import {filter} from 'rxjs';
 import {BreakpointObserver, Breakpoints} from '@angular/cdk/layout';
 import {NgIf} from '@angular/common';
+import {MatLabel} from '@angular/material/input';
 
 @Component({
   selector: 'app-pages',
   imports: [
     RouterOutlet,
-    HeaderComponent,
     MatSidenavContainer,
     MatSidenav,
     MatToolbar,
@@ -23,6 +23,7 @@ import {NgIf} from '@angular/common';
     RouterLink,
     RouterLinkActive,
     NgIf,
+    MatLabel,
   ],
   templateUrl: './pages.component.html',
   styleUrl: './pages.component.scss'

@@ -23,6 +23,15 @@
     </ul>
   </mat-sidenav>
 
+  <mat-sidenav mode="over" position="end" class="setting-list-item" #tools>
+    <mat-toolbar class="toolbar">
+      <h1>Tools</h1>
+      <span class="spacer"></span>
+      <button mat-mini-fab (click)="tools.toggle()"><mat-icon>close</mat-icon></button>
+    </mat-toolbar>
+    <mat-label>Hello!</mat-label>
+  </mat-sidenav>
+
   <mat-toolbar class="toolbar" *ngIf="!isMobile">
     <span class="toolbar-title">{{breadcrumb}}</span>
     <span class="spacer"></span>
@@ -31,7 +40,7 @@
       <a routerLink="about" routerLinkActive="active">About</a>
       <a routerLink="projects" routerLinkActive="active">Projects</a>
     </span>
-    <button mat-mini-fab (click)="mobileNav.toggle()">
+    <button mat-mini-fab (click)="tools.toggle()">
       <mat-icon>tune</mat-icon>
     </button>
   </mat-toolbar>
