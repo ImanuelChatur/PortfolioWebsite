@@ -1,0 +1,509 @@
+{
+  "title": "C++ OOP Concepts Quiz",
+  "description": "A comprehensive quiz covering C++ Object-Oriented Programming topics including classes, inheritance, polymorphism, and constructors.",
+  "quiz": [
+    {
+      "id": 1,
+      "question": "Each object of a class has its own copy of the class's",
+      "options": [
+        "member functions",
+        "member variables",
+        "constructor and destructor functions",
+        "All of these",
+        "None of these"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 2,
+      "question": "The __________ member variable may be accessed before any objects of the class have been created.",
+      "options": [
+        "private",
+        "public",
+        "inline",
+        "static",
+        "None of these"
+      ],
+      "answer_index": 3
+    },
+    {
+      "id": 3,
+      "question": "C++ requires that a copy constructor's parameter be a(n)",
+      "options": [
+        "integer data type",
+        "floating-point data type",
+        "pointer variable",
+        "reference object",
+        "None of these"
+      ],
+      "answer_index": 3
+    },
+    {
+      "id": 4,
+      "question": "C++ allows you to redefine the way __________ work when used with class objects.",
+      "options": [
+        "compiler errors",
+        "preprocessor directives",
+        "standard operators",
+        "undefined variables",
+        "None of these"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 5,
+      "question": "When objects contain pointers, it is a good idea to create an explicit __________ function.",
+      "options": [
+        "destructor",
+        "copy constructor",
+        "static constructor",
+        "inline constructor",
+        "None of these"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 6,
+      "question": "A good reason to overload an operator is to enable it to",
+      "options": [
+        "outperform its C language counterparts",
+        "work in its usual way, but with programmer-defined data types",
+        "operate on more operands than in its standard definition",
+        "operate on no operands",
+        "None of these"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 7,
+      "question": "Which of the following operators may be used to assign one object to another?",
+      "options": [
+        "=",
+        "==",
+        "<>",
+        "@",
+        "None of these"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": 8,
+      "question": "When a class contains an instance of another class, it is known as",
+      "options": [
+        "object overloading",
+        "operator overloading",
+        "object composition",
+        "dynamic composition",
+        "None of these"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 9,
+      "question": "If you do not furnish a(n) __________, an automatic memberwise copy will be performed when one object is assigned to another object.",
+      "options": [
+        "overloaded constructor function",
+        "overloaded assignment operator",
+        "default constructor function",
+        "overloaded copy operator",
+        "None of these"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 10,
+      "question": "It is a good idea to make a copy constructor's parameters __________ by specifying the __________ key word in the parameter list.",
+      "options": [
+        "inline, inline",
+        "static, static",
+        "constant, const",
+        "global, global",
+        "None of these"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 11,
+      "question": "If a member is declared __________, all objects of that class have access to that variable.",
+      "options": [
+        "static",
+        "dynamic",
+        "inline",
+        "default",
+        "None of these"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": 12,
+      "question": "A member function that is declared __________ may not access any non-static data members in the class.",
+      "options": [
+        "private",
+        "public",
+        "static",
+        "inline",
+        "None of these"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 13,
+      "question": "Which type of function is not a member of a class but has access to the private members of the class?",
+      "options": [
+        "static",
+        "constructor",
+        "destructor",
+        "friend",
+        "None of these"
+      ],
+      "answer_index": 3
+    },
+    {
+      "id": 14,
+      "question": "A(n) __________ is a special function that is called whenever a new object is created and initialized with another object's data.",
+      "options": [
+        "static function",
+        "destructor",
+        "copy constructor",
+        "assignment function",
+        "None of these"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 15,
+      "question": "If you do not furnish a __________, a default one will be provided by the compiler.",
+      "options": [
+        "constructor",
+        "destructor",
+        "copy constructor",
+        "All of these",
+        "None of these"
+      ],
+      "answer_index": 3
+    },
+    {
+      "id": 16,
+      "question": "When you redefine the way a standard operator works when it is used with class objects, you have __________ the operator.",
+      "options": [
+        "reassigned",
+        "reformatted",
+        "overloaded",
+        "referenced",
+        "None of these"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 17,
+      "question": "In C++11 values that persist beyond the statement that created them and have names that make them accessible to other statements in the program are called",
+      "options": [
+        "rvalues",
+        "lvalues",
+        "temporary values",
+        "semantics",
+        "None of these"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 18,
+      "question": "In C++11 reference variables that can refer only to temporary objects that would otherwise have no name are called __________ and are declared with a __________.",
+      "options": [
+        "rvalues, ampersand (&)",
+        "lvalues, ampersand (&)",
+        "lvalues, double ampersand (&&)",
+        "rvalues, double ampersand (&&)",
+        "None of these"
+      ],
+      "answer_index": 3
+    },
+    {
+      "id": 19,
+      "question": "In OOP programming, __________ allows you to create new classes based on existing classes.",
+      "options": [
+        "polymorphism",
+        "inheritance",
+        "function overloading",
+        "the copy constructor",
+        "None of these"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 20,
+      "question": "When you derive a class from an existing class, you __________ add new data and functions.",
+      "options": [
+        "never",
+        "must",
+        "may",
+        "None of these"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 21,
+      "question": "The __________ members of a base class are never accessible to a derived class.",
+      "options": [
+        "private",
+        "public",
+        "protected",
+        "All of these",
+        "None of these"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": 22,
+      "question": "The __________ constructor is called before the __________ constructor.",
+      "options": [
+        "base, derived",
+        "derived, base",
+        "public, private",
+        "private, public",
+        "None of these"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": 23,
+      "question": "A __________ of a base class expects to be overridden in a derived class.",
+      "options": [
+        "constructor function",
+        "destructor function",
+        "static function",
+        "virtual function",
+        "None of these"
+      ],
+      "answer_index": 3
+    },
+    {
+      "id": 24,
+      "question": "The term __________ means the ability to take many forms.",
+      "options": [
+        "inheritance",
+        "polymorphism",
+        "member function",
+        "encapsulation",
+        "None of these"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 25,
+      "question": "When the compiler binds a member function call with the version of the function that resides in the same class as the call itself, it is considered",
+      "options": [
+        "local binding",
+        "safe binding",
+        "static binding",
+        "dynamic binding",
+        "None of these"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 26,
+      "question": "The compiler performs __________ on virtual functions.",
+      "options": [
+        "local binding",
+        "additional error checking",
+        "static binding",
+        "dynamic binding",
+        "None of these"
+      ],
+      "answer_index": 3
+    },
+    {
+      "id": 27,
+      "question": "Which is the base class in the following statement?\nclass Car : public Vehicle",
+      "options": [
+        "Car",
+        "Vehicle",
+        "public",
+        "class",
+        "None of these"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 28,
+      "question": "The following statement allows the __________ members of the Car class to access __________ members of the Vehicle class.\nclass Car : public Vehicle",
+      "options": [
+        "private, private",
+        "public, private",
+        "protected, private",
+        "all, protected",
+        "None of these"
+      ],
+      "answer_index": 3
+    },
+    {
+      "id": 29,
+      "question": "Which is the derived class in the following statement?\nclass Car : protected Vehicle",
+      "options": [
+        "Car",
+        "Vehicle",
+        "protected",
+        "There is no way to tell.",
+        "None of these"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": 30,
+      "question": "What is being protected in the following statement?\nclass Car : protected Vehicle",
+      "options": [
+        "derived class functions",
+        "base class members",
+        "derived class data",
+        "future inherited classes",
+        "None of these"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 31,
+      "question": "Arguments are passed to the base class by the __________ class __________ function.",
+      "options": [
+        "derived, constructor",
+        "derived, destructor",
+        "base, constructor",
+        "base, destructor",
+        "None of these"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": 32,
+      "question": "Arguments are passed to the base class destructor by the __________ class __________ function.",
+      "options": [
+        "derived, constructor",
+        "derived, destructor",
+        "base, constructor",
+        "base, destructor",
+        "None of these"
+      ],
+      "answer_index": 4
+    },
+    {
+      "id": 33,
+      "question": "Protected members of a base class are like __________, but they may be accessed by derived classes.",
+      "options": [
+        "constructor functions",
+        "static members",
+        "private members",
+        "public members",
+        "None of these"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 34,
+      "question": "The __________ destructor is called before the __________ destructor.",
+      "options": [
+        "base, derived",
+        "derived, base",
+        "public, private",
+        "private, public",
+        "None of these"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 35,
+      "question": "Which of the following is commonly used to extend a class or to give it additional capabilities?",
+      "options": [
+        "inheritance",
+        "privacy",
+        "the constructor",
+        "the destructor",
+        "None of these"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": 36,
+      "question": "When member functions behave differently depending on which object performed the call, this is an example of",
+      "options": [
+        "chaos theory",
+        "virtual insubordination",
+        "polymorphism",
+        "encapsulation",
+        "None of these"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 37,
+      "question": "A virtual function is a function that expects to be __________ in a derived class.",
+      "options": [
+        "ignored",
+        "called frequently",
+        "overridden",
+        "private",
+        "None of these"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 38,
+      "question": "Multiple inheritance is when a __________ class has __________ base classes.",
+      "options": [
+        "base, no",
+        "derived, two or more",
+        "derived, no",
+        "compound, more than two",
+        "None of these"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 39,
+      "question": "A virtual function is declared by placing the __________ key word in front of the return type in the base class's function declaration.",
+      "options": [
+        "virtual",
+        "private",
+        "public",
+        "protected",
+        "None of these"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": 40,
+      "question": "Polymorphism is when __________ in a class hierarchy perform differently, depending on which object performs the call.",
+      "options": [
+        "base class constructors",
+        "derived class constructors",
+        "member functions",
+        "derived class destructors",
+        "None of these"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 41,
+      "question": "Functions that are dynamically bound by the compiler are __________ functions.",
+      "options": [
+        "constructor",
+        "destructor",
+        "static",
+        "virtual",
+        "None of these"
+      ],
+      "answer_index": 3
+    },
+    {
+      "id": 42,
+      "question": "C++11 introduced the __________ key word to help prevent subtle errors when overriding virtual functions.",
+      "options": [
+        "const",
+        "final",
+        "override",
+        "virtual",
+        "None of these"
+      ],
+      "answer_index": 2
+    }
+  ]
+}
