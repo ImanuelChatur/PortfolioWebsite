@@ -1,0 +1,859 @@
+{
+  "title": "Quiz 3 C++ Fundamentals and OOP",
+  "description": "A comprehensive quiz covering C++ basics (I/O, data types, control structures), pointers, and core Object-Oriented Programming (OOP) concepts (classes, objects, constructors, and destructors).",
+  "quiz": [
+    {
+      "id": 1,
+      "question": "The __________ is(are) used to display information on the computer's screen.",
+      "options": [
+        "opening and closing braces",
+        "opening and closing quotation marks",
+        "cout object",
+        "backslash",
+        "None of these"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 2,
+      "question": "Which of the following must be included in any program that uses the cout object?",
+      "options": [
+        "opening and closing braces",
+        "the header file <iostream>",
+        "comments",
+        "a namespace",
+        "None of these"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 3,
+      "question": "In a cout statement, which of the following will advance the output position to the beginning of the next line?",
+      "options": [
+        "endl or \\n",
+        "end1 or /n",
+        "\\n or \\t",
+        "\\t or \\b",
+        "\\ or '"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": 4,
+      "question": "What will the following code display?\ncout << \"Monday\";\ncout << \"Tuesday\";\ncout << \"Wednesday\";",
+      "options": [
+        "Monday\nTuesday\nWednesday",
+        "Monday Tuesday Wednesday",
+        "MondayTuesdayWednesday",
+        "\"Monday\"\n\"Tuesday\"\n\"Wednesday\"",
+        "\"Monday\" \"Tuesday\" \"Wednesday\""
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 5,
+      "question": "What will the following code display?\nint number = 23;\ncout << \"The number is \" << \"number\" << endl;",
+      "options": [
+        "The number is 23",
+        "The number is23",
+        "The number is number",
+        "The number is null",
+        "The number is"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 6,
+      "question": "What will the following code display?\ncout << \"Four\\n\" << \"score\\n\";\ncout << \"and\" << \"\\nseven\";\ncout << \"\\nyears\" << \" ago\" << endl;",
+      "options": [
+        "Four\nscore\nand\nseven\nyears ago",
+        "Four score and seven\nyears ago",
+        "Four\nscore\nand seven\nyears ago",
+        "Four score\nand seven\nyears ago"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": 7,
+      "question": "What will the following code display?\ncout << \"Roses \" << \"are red\";\ncout << \"and \" << \"violets/n\"\ncout << \"are\" << \"blue\" << endl;",
+      "options": [
+        "Roses are red\nand violets\nare blue",
+        "Roses are red and violets/nare blue",
+        "Roses are redand violets/nareblue",
+        "Roses are red and violets/n are blue"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 8,
+      "question": "What will the following code display?\nint x = 23, y = 34, z = 45;\ncout << x << y << z << endl;",
+      "options": [
+        "23 34 45",
+        "23\n34\n45",
+        "xyz",
+        "233445"
+      ],
+      "answer_index": 3
+    },
+    {
+      "id": 9,
+      "question": "Assuming that a program has the following string object definition, which statement correctly assigns the string literal \"Jane\" to the string object?\nstring name;",
+      "options": [
+        "name = Jane;",
+        "name = 'Jane';",
+        "name = \"Jane\";",
+        "name = <Jane>;",
+        "string name = {Jane};"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 10,
+      "question": "In memory, C++ automatically places a(n) __________ at the end of string literals which __________.",
+      "options": [
+        "semicolon, indicates the end of the statement",
+        "\\n, indicates an escape sequence",
+        "null terminator, marks the end of the string",
+        "bracket, marks the end of the string",
+        "None of these"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 11,
+      "question": "The data type of a variable whose value can be either true or false is",
+      "options": [
+        "int",
+        "binary",
+        "bool",
+        "Boolean",
+        "T/F"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 12,
+      "question": "What will be the output after the following lines of code execute?\nbool choice;\nchoice = true;\ncout << \"Your choice is \" << choice << endl;",
+      "options": [
+        "true",
+        "Your choice is true",
+        "Your choice is 1",
+        "Your choice is choice",
+        "None of these"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 13,
+      "question": "What data type does the compiler determine for the variable cost in the following statement?\nauto cost = 14.95;",
+      "options": [
+        "int",
+        "double",
+        "bool",
+        "char",
+        "string"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 14,
+      "question": "The __________ causes a program to wait until information is typed at the keyboard and the [Enter] key is pressed.",
+      "options": [
+        "output stream",
+        "cin object",
+        "cout object",
+        "preprocessor",
+        "None of these"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 15,
+      "question": "The __________ operator always follows the cin object, and the __________ operator follows the cout object.",
+      "options": [
+        "binary, unary",
+        "conditional, binary",
+        ">>, <<",
+        "<<, >>",
+        "None of these"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 16,
+      "question": "Which of the following must be included in any program that uses the cin object?",
+      "options": [
+        "compiler",
+        "the header file <iostream>",
+        "linker",
+        "brackets",
+        "None of these"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 17,
+      "question": "Which of the following will allow the user to input the values 15 and 20 and have them stored in variables named base and height, respectively?",
+      "options": [
+        "cin << base << height;",
+        "cin base, height;",
+        "cin >> base >> height;",
+        "cin base >> cin height;",
+        "None of these"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 18,
+      "question": "What will be displayed after the following statements execute?\nint num1 = 5;\nint num2 = 3;\ncout << \"The result is \" << (num1 * num2 + 10) << endl;",
+      "options": [
+        "The result is 5 * 3 + 10",
+        "The result is (num1 * num2 + 10)",
+        "The result is 25",
+        "The result is 65",
+        "None of these"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 19,
+      "question": "What is the value of x after the following code executes?\nint x;\nx = 3 / static_cast<int>(4.5 + 6.4);",
+      "options": [
+        "0.3",
+        "0",
+        "0.275229",
+        "3.3",
+        "None of these"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 20,
+      "question": "This manipulator is used to establish a field width for the value that follows it:",
+      "options": [
+        "field_width",
+        "set_field",
+        "setw",
+        "iomanip",
+        "None of these"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 21,
+      "question": "You can control the number of significant digits in your output with the __________ manipulator.",
+      "options": [
+        "setprecision",
+        "set_precision",
+        "to_fixed",
+        "setfixed()",
+        "None of these"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": 22,
+      "question": "Which of the following functions tells the cin object to skip one or more characters in the keyboard buffer?",
+      "options": [
+        "cin.ignore",
+        "cin.jump",
+        "cin.hop",
+        "cin.skip",
+        "None of these"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": 23,
+      "question": "__________ reads a line of input, including leading and embedded spaces, and stores it in a string object.",
+      "options": [
+        "cin.get",
+        "getline",
+        "cin.nextline",
+        "get",
+        "None of these"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 24,
+      "question": "Which of the following statements will read an entire line of input into the string object, address?",
+      "options": [
+        "cin << address;",
+        "cin address;",
+        "cin.get(address);",
+        "getline(cin, address);",
+        "cin.get(length >> width >> height);"
+      ],
+      "answer_index": 3
+    },
+    {
+      "id": 25,
+      "question": "After the following code executes, what is the value of my_value if the user enters 0?\ncin >> my_value;\nif (my_value > 5)\n\tmy_value = my_value + 5;\nelse if (my_value > 2)\n\tmy_value = my_value + 10;\nelse\n\tmy_value = my_value + 15;",
+      "options": [
+        "15",
+        "10",
+        "25",
+        "0",
+        "5"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": 26,
+      "question": "What is the output of the following code segment if the user enters 90 for the score?\ncout << \"Enter your test score: \";\ncin >> test_score;\nif (test_score < 60)\n\tcout << \"You failed the test.\" << endl;\nif (test_score > 60)\n\tcout << \"You passed the test.\"\nelse\n\tcout << \"You need to study harder next time.\" << endl;",
+      "options": [
+        "You failed the test.",
+        "You passed the test.",
+        "You need to study harder next time.",
+        "You failed the test.\nYou need to study harder next time.",
+        "You passed the test.\nYou need to study harder next time."
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 27,
+      "question": "What is the output of the following segment of code if the value 4 is input by the user?\nint num;\nint total = 0;\ncout << \"Enter a number from 1 to 10: \";\ncin >> num;\nswitch (num)\n{\n\tcase 1:\n\tcase 2:  total = 5;\n\tcase 3:  total = 10;\n\tcase 4:  total = total + 3;\n\tcase 8:  total = total + 6;\n\tdefault: total = total + 4;\n}\ncout << total << endl;",
+      "options": [
+        "0",
+        "3",
+        "13",
+        "23",
+        "None of these"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 28,
+      "question": "These types of arguments are passed to parameters automatically if no argument is provided in the function call.",
+      "options": [
+        "local",
+        "default",
+        "global",
+        "reference",
+        "None of these"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 29,
+      "question": "When used as parameters, these types of variables allow a function to access the parameter's original argument:",
+      "options": [
+        "reference",
+        "floating-point",
+        "counter",
+        "undeclared",
+        "None of these"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": 30,
+      "question": "What will the following code display? \n#include <iostream>\nusing namespace std;\nvoid doSomething(int&);\nint main()\n{\n\tint x = 2;\n\tcout << x << endl;\n\tdoSomething(x);\n\tcout << x << endl;\n\treturn 0;\n}\nvoid doSomething(int& num)\n{\n\tnum = 0;\n\tcout << num << endl;\n}",
+      "options": [
+        "2\n0\n2",
+        "2\n2\n2",
+        "0\n0\n0",
+        "2\n0\n0"
+      ],
+      "answer_index": 3
+    },
+    {
+      "id": 31,
+      "question": "The __________ is automatically appended to a character array when it is initialized with a string constant.",
+      "options": [
+        "array name",
+        "number of elements",
+        "value of the first element",
+        "null terminator",
+        "None of these"
+      ],
+      "answer_index": 3
+    },
+    {
+      "id": 32,
+      "question": "An array of string objects that will hold five names would be declared with which of the following statements?",
+      "options": [
+        "string names[5];",
+        "string names(5);",
+        "string names 5;",
+        "String[5] = names;"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": 33,
+      "question": "In the following statement, what does int mean?\nint *ptr = nullptr;",
+      "options": [
+        "The variable named *ptr will store an integer value.",
+        "The variable named *ptr will store an asterisk and an integer value",
+        "ptr is a pointer variable and will store the address of an integer variable.",
+        "The variable named *ptr will store the value in nullptr.",
+        "None of these"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 34,
+      "question": "Which of the following statements deletes memory that has been dynamically allocated for an array?",
+      "options": [
+        "int array = delete memory;",
+        "int delete[ ];",
+        "delete [] array;",
+        "new array = delete;",
+        "None of these"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 35,
+      "question": "The following statement __________\nint *ptr = new int;",
+      "options": [
+        "results in a compiler error",
+        "assigns an integer less than 32767 to the variable ptr",
+        "assigns an address to the variable ptr",
+        "creates a new pointer named int",
+        "None of these"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 36,
+      "question": "Which of the following defines a unique_ptr named uniq that points to a dynamically allocated int?",
+      "options": [
+        "unique_ptr<uniq> int( new int );",
+        "unique_ptr<int> int( new uniq );",
+        "unique_ptr<uniq> uniq( new int );",
+        "unique_ptr<int> uniq( new int );",
+        "None of these"
+      ],
+      "answer_index": 3
+    },
+    {
+      "id": 37,
+      "question": "Objects are created from abstract data types that encapsulate __________ and __________ together.",
+      "options": [
+        "numbers, characters",
+        "data, functions",
+        "addresses, pointers",
+        "integers, floating-point numbers",
+        "None of these"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 38,
+      "question": "In OOP terminology, an object's member variables are often called its __________ and its member functions can be referred to as its behaviors or its __________.",
+      "options": [
+        "values, morals",
+        "data, activities",
+        "attributes, activities",
+        "attributes, methods",
+        "None of these"
+      ],
+      "answer_index": 3
+    },
+    {
+      "id": 39,
+      "question": "A C++ class is similar to a(n)",
+      "options": [
+        "inline function",
+        "header file",
+        "library function",
+        "structure",
+        "None of these"
+      ],
+      "answer_index": 3
+    },
+    {
+      "id": 40,
+      "question": "Where are class declarations usually stored?",
+      "options": [
+        "on separate disk volumes",
+        "in their own header files",
+        "in .cpp files, along with function definitions",
+        "under pseudonyms",
+        "None of these"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 41,
+      "question": "In a procedural program you typically have __________ stored in a collection of variables and a set of __________ that perform operations on the data.",
+      "options": [
+        "numbers, arguments",
+        "parameters, arguments",
+        "strings, operators",
+        "data, functions",
+        "None of these"
+      ],
+      "answer_index": 3
+    },
+    {
+      "id": 42,
+      "question": "A class is a(n) __________ that is defined by the programmer.",
+      "options": [
+        "data type",
+        "function",
+        "method",
+        "attribute",
+        "None of these"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": 43,
+      "question": "Examples of access specifiers are the key words",
+      "options": [
+        "near and far",
+        "opened and closed",
+        "private and public",
+        "table and row",
+        "None of these"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 44,
+      "question": "Which of the following is used to protect important data?",
+      "options": [
+        "the public access specifier",
+        "the private access specifier",
+        "the protect member function",
+        "the class protection operator, @",
+        "None of these"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 45,
+      "question": "When the body of a member function is defined inside a class declaration, it is said to be",
+      "options": [
+        "static",
+        "global",
+        "inline",
+        "conditional",
+        "None of these"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 46,
+      "question": "A __________ is a member function that is automatically called when a class object is __________.",
+      "options": [
+        "constructor, created",
+        "destructor, created",
+        "static function, deallocated",
+        "utility function, declared",
+        "None of these"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": 47,
+      "question": "The constructor function's return type is",
+      "options": [
+        "int",
+        "float",
+        "char",
+        "structure pointer",
+        "None of these"
+      ],
+      "answer_index": 4
+    },
+    {
+      "id": 48,
+      "question": "The destructor function's return type is",
+      "options": [
+        "int",
+        "float",
+        "char",
+        "Nothing; destructors have no return type",
+        "None of these"
+      ],
+      "answer_index": 3
+    },
+    {
+      "id": 49,
+      "question": "When a constructor function accepts no arguments, or does not have to accept arguments because of default arguments, it is called a(n)",
+      "options": [
+        "empty constructor",
+        "default constructor",
+        "stand-alone function",
+        "arbitrator function",
+        "None of these"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 50,
+      "question": "When a constructor has a member initialization list, the initializations take place",
+      "options": [
+        "after any statements in the body of the constructor execute",
+        "before any statements in the body of the constructor execute",
+        "when a member is used in the execution of the program",
+        "None of these"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 51,
+      "question": "In C++11 you can use __________ to initialize a member variable in its declaration statement.",
+      "options": [
+        "general member initialization",
+        "default initialization",
+        "in-place initialization",
+        "initialization overload",
+        "None of these"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 52,
+      "question": "The type of member function that may be called from a statement outside the class is",
+      "options": [
+        "public",
+        "private",
+        "undeclared",
+        "global",
+        "None of these"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": 53,
+      "question": "If you do not declare an access specification, the default for members of a class is",
+      "options": [
+        "inline",
+        "private",
+        "public",
+        "global",
+        "None of these"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 54,
+      "question": "Members of the class object are accessed with the",
+      "options": [
+        "dot operator",
+        "cin object",
+        "extraction operator",
+        "stream insertion operator",
+        "None of these"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": 55,
+      "question": "Assuming that Rectangle is a class name, what can you say is true, given the following statement?\nRectangle *BoxPtr;",
+      "options": [
+        "The statement declares an object of the class Rectangle.",
+        "The statement assigns the value of *BoxPtr to the object Rectangle.",
+        "The statement defines a Rectangle pointer variable named *BoxPtr.",
+        "The statement is illegal in C++.",
+        "None of these"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 56,
+      "question": "When you dereference an object pointer, use the",
+      "options": [
+        "-> operator",
+        "<> operator",
+        "dot operator",
+        "& operator",
+        "None of these"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": 57,
+      "question": "Which type of member function may only be called from a function that is a member of the same class?",
+      "options": [
+        "public",
+        "private",
+        "global",
+        "local",
+        "None of these"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 58,
+      "question": "The constructor function always has the same name as",
+      "options": [
+        "the first private data member",
+        "the first public data member",
+        "the class",
+        "the first object of the class",
+        "None of these"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 59,
+      "question": "Which of the following is automatically called when an object is destroyed?",
+      "options": [
+        "the constructor function",
+        "the specification deallocator",
+        "the destructor function",
+        "the destruction function",
+        "None of these"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 60,
+      "question": "How many default constructors can a class have?",
+      "options": [
+        "only one",
+        "two or more",
+        "only two",
+        "any number",
+        "None of these"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": 61,
+      "question": "Objects in an array are accessed with __________.",
+      "options": [
+        "subscripts",
+        "parentheses",
+        "#include statements",
+        "output format manipulators",
+        "None of these"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": 62,
+      "question": "The process of object-oriented analysis can be viewed as the following steps:",
+      "options": [
+        "identify objects, then define each object's attributes, behaviors, and relationships",
+        "define data members and member functions, then assign the class name",
+        "declare public and private variables, prototype functions, and then write code",
+        "write the main() function, then determine which classes are needed",
+        "None of these"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": 63,
+      "question": "When a member function is defined outside of the class declaration, the function name must be qualified with the",
+      "options": [
+        "class name, followed by a semicolon",
+        "name of the first object",
+        "class name, followed by the scope resolution operator",
+        "private access specifier",
+        "None of these"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 64,
+      "question": "If a local variable and a global variable have the same name within the same program, the __________ resolution operator must be used.",
+      "options": [
+        "variable",
+        "ambiguity",
+        "scope",
+        "global",
+        "None of these"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 65,
+      "question": "For the following code, which statement is not true?\nclass Point\n{\n\tprivate:\n\t\tdouble y;\n\t\tdouble z;\n\tpublic:\n\t\tdouble x;\n};\n",
+      "options": [
+        "x is available to code that is written outside the class.",
+        "The name of the class is Point.",
+        "x, y, and z are called members of the class.",
+        "z is not available to code that is written outside the class.",
+        "All of these are true."
+      ],
+      "answer_index": 3
+    },
+    {
+      "id": 66,
+      "question": "The following code shows an example of __________\nclass Point\n{\n\tprivate:\n\t\tdouble y = 5.70;\n\t\tdouble z = 3.0;\n\tpublic:\n\t\tPublic member functions go here...\n};",
+      "options": [
+        "constructor delegation",
+        "in-place initialization",
+        "a default constructor creation",
+        "an illegal initialization"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 67,
+      "question": "In C++11 you can have one constructor call another constructor in the same class by using",
+      "options": [
+        "constructor delegation",
+        "in-place initialization",
+        "a member initialization list",
+        "None of these"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": 68,
+      "question": "Assume that myCar is an instance of the Car class and that the Car class has a member function named accelerate. Which of the following is a valid call to the accelerate member function?",
+      "options": [
+        "Car -> accelerate();",
+        "myCar::accelerate();",
+        "myCar.accelerate();",
+        "myCar:accelerate();",
+        "None of these"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 69,
+      "question": "What is the output of the following program?\n#include <iostream>\nusing namespace std;\nclass TestClass\n{\npublic:\n\tTestClass(int x)\n\t{ cout << x << endl; }\n\tTestClass()\n\t{ cout << \"Hello!\" << endl; }\n};\nint main()\n{\n\tTestClass test;\n\treturn 0;\n}",
+      "options": [
+        "the program runs but there is no output.",
+        "0",
+        "Hello!",
+        "the program will not compile"
+      ],
+      "answer_index": 2
+    },
+    {
+      "id": 70,
+      "question": "What is the output of the following program?\n#include <iostream>\nusing namespace std;\nclass TestClass\n{\npublic:\n\tTestClass(int x)\n\t{ cout << x << endl; }\n\tTestClass()\n\t{ cout << \"Hello!\" << endl; }\n};\nint main()\n{\n\tTestClass test(77);\n\treturn 0;\n}",
+      "options": [
+        "the program runs but there is no output.",
+        "77",
+        "Hello!",
+        "the program will not compile"
+      ],
+      "answer_index": 1
+    },
+    {
+      "id": 71,
+      "question": "What is the output of the following program?\n#include <iostream>\nusing namespace std;\nclass TestClass\n{\nprivate:\n\tint val;\n\tvoid showVal()\n\t{ cout << val << endl; }\npublic:\n\tTestClass(int x)\n\t{ val = x; }\n};\nint main()\n{\n\tTestClass test(77);\n\ttest.showVal();\n\treturn 0;\n}",
+      "options": [
+        "the program runs but there is no output.",
+        "77",
+        "0",
+        "the program will not compile"
+      ],
+      "answer_index": 3
+    },
+    {
+      "id": 72,
+      "question": "The destructor function's return type is",
+      "options": [
+        "int",
+        "float",
+        "char",
+        "Nothing; destructors have no return type",
+        "None of these"
+      ],
+      "answer_index": 3
+    }
+  ]
+}
